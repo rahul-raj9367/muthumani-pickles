@@ -168,7 +168,7 @@ export default function Navbar({ activeButton, handleButtonClick }) {
                 </NavLink>
               </Box>
               <Box>
-              <IconButton
+              <IconButton  
             aria-label="Open Menu"
             fontSize='30px'
             pr="20px"
@@ -206,8 +206,9 @@ export default function Navbar({ activeButton, handleButtonClick }) {
                       <Flex 
                       flexDir="column"
                       justifyContent="center"
+                      pl="0px"
                       >
-                      <List mt="15px">
+                      <List pl="0px" mt="15px">
                               <Center>
                               <ListItem   mb="30px">
                               <NavLink>

@@ -163,7 +163,7 @@ export default function Navbar({ activeButton, handleButtonClick }) {
               <Box>
               <NavLink>
               <Link to="/">
-                  <Image  loading="lazy" mt={[]} src={logo}    alt='muthumani_pickles' w={['100px']} h={['100px']} />
+                  <Image  loading="lazy" mt={[]} src={logo}  pl="5px"   alt='muthumani_pickles' w={['80px']} h={['80px']} />
                   </Link>
                 </NavLink>
               </Box>

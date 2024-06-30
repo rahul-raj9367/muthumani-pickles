@@ -152,13 +152,13 @@ export default function Home({setActiveButton }) {
           <GridItem w='100%' h='100%' data-aos="fade-up"
      data-aos-duration="3000">
             <Center>
-              <Image borderRadius="full"  loading="lazy"  overflow="hidden" boxSize={["100%","80%"]} src='images/p1.png' />
+              <Image borderRadius="full"  loading="lazy"  overflow="hidden" boxSize={["100%","80%"]} src='images/p11.png' />
             </Center>
           </GridItem>
           <GridItem w='100%' h='100%' data-aos="fade-up"
      data-aos-duration="3000">
             <Center>
-              <Image borderRadius="full"  loading="lazy"  overflow="hidden" boxSize={["100%","80%"]} src='images/p2.png' />
+              <Image borderRadius="full"  loading="lazy"  overflow="hidden" boxSize={["100%","80%"]} src='images/p22.png' />
             </Center>
           </GridItem>
         </Grid>

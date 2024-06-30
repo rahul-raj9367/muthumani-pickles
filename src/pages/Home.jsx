@@ -273,7 +273,7 @@ export default function Home({setActiveButton }) {
                           " Great quality pickles with natural ingredients. Reminds me of homemade pickles "
                       </Heading>
                     </Center>
-                    <Text textAlign="right" pt={["10px","10px","20px","50px"]} pr="10%" >-Vimalesh </Text>
+                    <Text textAlign="right" pt={["10px","10px","20px","50px"]} pr="10%" >-Priya </Text>
 
                   </SwiperSlide>
 

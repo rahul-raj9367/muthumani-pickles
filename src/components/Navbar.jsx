@@ -17,7 +17,7 @@ export default function Navbar({ activeButton, handleButtonClick }) {
   //   setActiveButton(buttonId);
   // };
   return (
-    <Box className='NAV'  position="relative" pt={["55px","55px","0px"]} mb={["100px","80px","80px","50px"]}>
+    <Box className='NAV'  position="relative" pt={["55px","55px","0px"]} mb={["80px","80px","80px","50px"]}>
         
   
     <Flex  pt="20px" className='NAVV' as="nav" >

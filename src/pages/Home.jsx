@@ -111,7 +111,7 @@ export default function Home({setActiveButton }) {
                 
               </GridItem>
 
-              <GridItem w='100%' h='100%'  mt={["","","","","0px","5%"]}   data-aos="fade-"
+              <GridItem w='100%' h='100%'  mt={["","","","","0px","5%"]}   data-aos="fade-left"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine" data-aos-delay="100">
                 <Box w={['100%']} pl={["20px","20px","40px","20px"]} pr={["20px","20px","40px","20px"]} >

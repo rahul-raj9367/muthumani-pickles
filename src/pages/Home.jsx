@@ -25,7 +25,9 @@ import { EffectCards } from 'swiper/modules';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 
-
+import logo from '../assets/s11.svg'
+import logo2 from '../assets/s22.svg'
+import logo3 from '../assets/s33.svg'
 
 export default function Home({setActiveButton }) {
 
@@ -166,7 +168,18 @@ export default function Home({setActiveButton }) {
           <GridItem w='100%' h='100%' >
               <Center>
                 <Flex flexDir="column" alignItems="center" d>
-                  <Image borderRadius="full"  loading="lazy"  overflow="hidden" boxSize={["60%","60%","35%","70%","65%"]} src='images/pickle.webp'  data-aos="flip-left" data-aos-delay="500"/>
+                <Image 
+  borderRadius="full" 
+  loading="lazy" 
+  border="7px solid #000000"  // Correct color code for black
+  overflow="hidden" 
+  boxSize={["60%", "60%", "35%", "70%", "65%"]} 
+  bg="#fff" 
+  p="5px" 
+  src={logo2} 
+  data-aos="flip-left" 
+  data-aos-delay="500" 
+/>
                   <Heading size={['md','md','md','lg']} mt={["18px","20px"]} color="white" data-aos="fade-up"
      data-aos-duration="3000">Quality</Heading>
                   <Text mt={["10px","20px"]} width={["80%","80%","50%","80%"]} textAlign="center" color="white" data-aos="fade-up"
@@ -177,7 +190,18 @@ export default function Home({setActiveButton }) {
           <GridItem w='100%' h='100%' >
             <Center>
                 <Flex flexDir="column" alignItems="center">
-                  <Image borderRadius="full"  loading="lazy"  overflow="hidden" boxSize={["60%","60%","35%","70%","65%"]} src='images/pickle.webp'  data-aos="flip-right" data-aos-delay="500"/>
+                <Image 
+  borderRadius="full" 
+  loading="lazy" 
+  border="7px solid #000000"  // Correct color code for black
+  overflow="hidden" 
+  boxSize={["60%", "60%", "35%", "70%", "65%"]} 
+  bg="#fff" 
+  p="5px" 
+  src={logo3} 
+  data-aos="flip-left" 
+  data-aos-delay="500" 
+/>
                   <Heading size={['md','md','md','lg']} mt={["10px","20px"]} color="white" data-aos="fade-up"
      data-aos-duration="3000">Tasty</Heading>
                   <Text mt={["10px","20px"]}  width={["80%","80%","50%","80%"]} textAlign="center" data-aos="fade-up"
@@ -188,7 +212,18 @@ export default function Home({setActiveButton }) {
           <GridItem w='100%' h='100%'  >
             <Center>
                 <Flex flexDir="column" alignItems="center">
-                  <Image borderRadius="full"  loading="lazy"  overflow="hidden" boxSize={["60%","60%","35%","70%","65%"]} src='images/pickle.webp'  data-aos="flip-left" data-aos-delay="500"/>
+                <Image 
+  borderRadius="full" 
+  loading="lazy" 
+  border="7px solid #000000"  // Correct color code for black
+  overflow="hidden" 
+  boxSize={["60%", "60%", "35%", "70%", "65%"]} 
+  bg="#fff" 
+  p="5px" 
+  src={logo} 
+  data-aos="flip-left" 
+  data-aos-delay="500" 
+/>
                   <Heading size={['md','md','md','lg']} mt={["18px","20px"]} data-aos="fade-up"
      data-aos-duration="3000" color="white">Service</Heading>
                   <Text mt={["1[]px","20px"]} width={["80%","80%","50%","80%"]} textAlign="center" data-aos="fade-up"

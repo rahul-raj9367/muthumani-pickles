@@ -81,8 +81,8 @@ export default function Home({setActiveButton }) {
     // </>
     <Box >
       {/* Carousel */}
-        <Box width={["100%"]}  className='Caro'>
-        <Carousel interval={3000} controls={false} indicators={false} pause={false}>
+        <Box width={["100%"]}  className='Caro' data-aos="zoom-in-down" data-aos-delay="300">
+        <Carousel interval={3000} controls={false} indicators={false} pause={false} >
           {carouselItems.map((item, index) => (
                 <Carousel.Item key={index}>
                   <Image
@@ -104,7 +104,7 @@ export default function Home({setActiveButton }) {
             <Grid templateColumns={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(1, 1fr)','repeat(2, 1fr)','repeat(2, 1fr)']}  overflow="hidden" gap={6}>
               <GridItem w='100%' h='100%' data-aos="fade-right"
      data-aos-offset="300"
-     data-aos-easing="ease-in-sine" data-aos-delay="100">
+     data-aos-easing="ease-in-sine" data-aos-delay="500">
                 <Center>
                 <Image src="images/tra.png"  loading="lazy" mt={["","","","0px",""]}   alt="Traditional Pickles" borderRadius="20px" width={["90%","90%","50%","90%","90%","85%"]} height={["100%","100%","100%","100%"]} ml={["0px","0px","0px"]}/>
                 </Center>
@@ -113,7 +113,7 @@ export default function Home({setActiveButton }) {
 
               <GridItem w='100%' h='100%'  mt={["","","","","0px","5%"]}   data-aos="fade-left"
      data-aos-offset="300"
-     data-aos-easing="ease-in-sine" data-aos-delay="100">
+     data-aos-easing="ease-in-sine" data-aos-delay="500">
                 <Box w={['100%']} pl={["20px","20px","40px","20px"]} pr={["20px","20px","40px","20px"]} >
                 <Center><Heading  as='h2' size={['lg','lg','lg','lg','xl']} color="#B31312" mb="4%" textAlign="center">Welcome To Muthumani Pickles</Heading></Center>
                 <Center>
@@ -253,7 +253,7 @@ export default function Home({setActiveButton }) {
                 >
             
                   <SwiperSlide>
-                  <Center mt={["40%","20%","30%","20%"]}>
+                  <Center mt={["40%","20%","30%","20%","18%"]}>
                       <Heading  
                       fontWeight="400"
                      fontSize={["20px","24px"]}
@@ -263,11 +263,11 @@ export default function Home({setActiveButton }) {
                           " Absolutely love the flavors! Authentic and delicious. Highly recommend "
                       </Heading>
                     </Center>
-                    <Text textAlign="right"  pt={["10px","10px","20px","50px"]} pr="10%" >-Vel Murugran</Text>
+                    <Text textAlign="right"  pt={["10px","10px","20px","50px"]} pb={["0px","0px","0px","0px","0px","40px"]}pr="10%" >-Vel Murugran</Text>
 
                   </SwiperSlide>
                   <SwiperSlide>
-                  <Center mt={["40%","20%","30%","20%"]}>
+                  <Center mt={["40%","20%","30%","20%","18%"]}>
                       <Heading  
                       fontWeight="400"
                       fontSize={["20px","24px"]}
@@ -277,12 +277,12 @@ export default function Home({setActiveButton }) {
                           " Great quality pickles with natural ingredients. Reminds me of homemade pickles "
                       </Heading>
                     </Center>
-                    <Text textAlign="right" pt={["10px","10px","20px","50px"]} pr="10%" >-Priya </Text>
+                    <Text textAlign="right" pt={["10px","10px","20px","50px"]}  pb={["0px","0px","0px","0px","0px","40px"]} pr="10%" >-Priya </Text>
 
                   </SwiperSlide>
 
                   <SwiperSlide>
-                  <Center mt={["40%","20%","30%","20%"]}>
+                  <Center mt={["40%","20%","30%","20%","18%"]}>
                       <Heading  
                       fontWeight="400"
                     fontSize={["20px","24px"]}
@@ -292,7 +292,7 @@ export default function Home({setActiveButton }) {
                           " Excellent taste and freshness. The packaging is also very convenient. Will definitely buy again "
                       </Heading>
                     </Center>
-                    <Text textAlign="right" pt={["10px","10px","20px","50px"]}  pr="10%" >-Athinesh Lal </Text>
+                    <Text textAlign="right" pt={["10px","10px","20px","50px"]}  pb={["0px","0px","0px","0px","0px","40px"]}  pr="10%" >-Athinesh Lal </Text>
 
                   </SwiperSlide>
                 </Swiper>

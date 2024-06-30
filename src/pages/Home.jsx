@@ -47,18 +47,21 @@ export default function Home({setActiveButton }) {
     //carousal
     const carouselItems = [
       {
-        src: 'images/banner1.jpg',
+        src: 'images/b1.jpg',
         alt: 'Slide 1'
       },
       {
-        src: 'images/1.jpg',
+        src: 'images/b2.jpg',
         alt: 'Slide 1'
       },
       {
-        src: 'images/2.jpg',
+        src: 'images/b3.jpg',
         alt: 'Slide 1'
       }
     ];
+
+
+    const placeholderImage = 'images/banner1.jpg';
 
     //AOS
     useEffect(()=>{
@@ -88,6 +91,7 @@ export default function Home({setActiveButton }) {
                     alt={item.alt}
                     width="100%"
                     height="90%"
+                    fallbackSrc={placeholderImage} 
                   />
                 </Carousel.Item>
               ))}

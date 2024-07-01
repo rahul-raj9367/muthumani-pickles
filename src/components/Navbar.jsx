@@ -17,7 +17,7 @@ export default function Navbar({ activeButton, handleButtonClick }) {
   //   setActiveButton(buttonId);
   // };
   return (
-    <Box className='NAV'  position="relative" pt={["55px","55px","0px"]} mb={["80px","80px","80px","50px"]}>
+    <Box className='NAV'  position="relative" pt={["55px","55px","0px"]} mb={["80px","80px","30px","30px","20px"]}>
         
   
     <Flex  pt="20px" className='NAVV' as="nav" >
@@ -67,6 +67,8 @@ export default function Navbar({ activeButton, handleButtonClick }) {
               bg={activeButton === 1 ? '#B31312' : '#ffffff'}
               color={activeButton === 1 ? '#ffffff' : 'black'}
               _hover={{ bg: activeButton === 1 ? '#B31312' : '#f0f0f0', color: activeButton === 1 ? '#ffffff' : 'black' }}
+
+              
             >
               HOME
             </Button>
@@ -213,7 +215,10 @@ export default function Navbar({ activeButton, handleButtonClick }) {
                               <ListItem   mb="30px">
                               <NavLink>
                                   <Link to="/">
-                              <Text onClick={()=>ChangeDisplayy('none')} fontFamily="Montserrat" fontSize='xl' as='b'  _hover={{ color:'#1da1f2' }} color="#B31312">Home</Text>
+                              <Text onClick={() => {
+        ChangeDisplayy('none');
+        handleButtonClick(1);
+      }} fontFamily="Montserrat" fontSize='xl' as='b'  _hover={{ color:'#1da1f2' }} color="#B31312">Home</Text>
                               </Link>
                               </NavLink>
                               </ListItem>
@@ -223,7 +228,10 @@ export default function Navbar({ activeButton, handleButtonClick }) {
                               <ListItem   mb="30px">
                               <NavLink>
                               <Link to="/about">
-                              <Text onClick={()=>ChangeDisplayy('none')} fontFamily="Montserrat" fontSize='xl' as='b' _hover={{ color:'#1da1f2' }} color="#B31312">About</Text>
+                              <Text onClick={() => {
+        ChangeDisplayy('none');
+        handleButtonClick(2);
+      }} fontFamily="Montserrat" fontSize='xl' as='b' _hover={{ color:'#1da1f2' }} color="#B31312">About</Text>
                               </Link>
                               </NavLink>
 
@@ -234,7 +242,10 @@ export default function Navbar({ activeButton, handleButtonClick }) {
                               <ListItem  mb="30px" >
                               <NavLink>
                               <Link to="/product">
-                                  <Text onClick={()=>ChangeDisplayy('none')} fontFamily="Montserrat" fontSize='xl' as='b' _hover={{ color:'#1da1f2' }} color="#B31312">Product</Text>
+                                  <Text onClick={() => {
+        ChangeDisplayy('none');
+        handleButtonClick(3);
+      }} fontFamily="Montserrat" fontSize='xl' as='b' _hover={{ color:'#1da1f2' }} color="#B31312">Product</Text>
                               </Link>
                               </NavLink>
                                   </ListItem>
@@ -245,7 +256,10 @@ export default function Navbar({ activeButton, handleButtonClick }) {
                               <ListItem  mb="30px" >
                               <NavLink>
                                   <Link to="/gallery">
-                                      <Text onClick={()=>ChangeDisplayy('none')} fontFamily="Montserrat" fontSize='xl' as='b'   _hover={{ color:'#1da1f2' }}  color="#B31312">Gallery</Text>
+                                      <Text onClick={() => {
+        ChangeDisplayy('none');
+        handleButtonClick(4);
+      }} fontFamily="Montserrat" fontSize='xl' as='b'   _hover={{ color:'#1da1f2' }}  color="#B31312">Gallery</Text>
                                     </Link>
                               </NavLink>
                                   </ListItem>
@@ -255,7 +269,10 @@ export default function Navbar({ activeButton, handleButtonClick }) {
                               <ListItem  mb="30px">
                               <NavLink>
                                 <Link to="/contact">
-                                <Text onClick={()=>ChangeDisplayy('none')} fontFamily="Montserrat" fontSize='xl' as='b'   color="#B31312" _hover={{ color:'#1da1f2' }}>Contact</Text>
+                                <Text onClick={() => {
+        ChangeDisplayy('none');
+        handleButtonClick(5);
+      }} fontFamily="Montserrat" fontSize='xl' as='b'   color="#B31312" _hover={{ color:'#1da1f2' }}>Contact</Text>
                                 </Link>
                                 </NavLink>
                               </ListItem>

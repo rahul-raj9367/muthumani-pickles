@@ -81,7 +81,7 @@ export default function Home({setActiveButton }) {
     // </>
     <Box >
       {/* Carousel */}
-        <Box width={["100%"]}  className='Caro' data-aos="zoom-in-down" data-aos-delay="300">
+        <Box width={["100%"]}  className='Caro'>
         <Carousel interval={3000} controls={false} indicators={false} pause={false} >
           {carouselItems.map((item, index) => (
                 <Carousel.Item key={index}>
@@ -106,7 +106,7 @@ export default function Home({setActiveButton }) {
      data-aos-offset="300"
      data-aos-easing="ease-in-sine" data-aos-delay="500">
                 <Center>
-                <Image src="images/tra.png"  loading="lazy" mt={["","","","0px",""]}   alt="Traditional Pickles" borderRadius="20px" width={["90%","90%","50%","90%","90%","85%"]} height={["100%","100%","100%","100%"]} ml={["0px","0px","0px"]}/>
+                <Image src="images/tra.jpg"  loading="lazy" mt={["","","","0px",""]}   alt="Traditional Pickles" borderRadius="20px" width={["90%","90%","50%","90%","90%","85%"]} height={["100%","100%","100%","100%"]} ml={["0px","0px","0px"]}/>
                 </Center>
                 
               </GridItem>

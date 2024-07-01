@@ -86,7 +86,7 @@ export default function Footer({setActiveButton}) {
                       alt='rahul' 
                       w={['200px','200px','120px','200px']} 
                       h={['200px','200px','120px','200px']} 
-                      onClick={() => handleButtonClick(1)} // Set HOME button active on logo click
+                      onClick={() => setActiveButton(1)} // Set HOME button active on logo click
                     />
                   </Link>
                 </NavLink>

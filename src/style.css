@@ -151,6 +151,12 @@ body {
   color: #FF8903;
   font-weight: 600;
 }
+
+
+#packi{
+  color: #B31312 !important;
+  font-weight: 700;
+}
 /* .swiper-slide:nth-child(4n) {
   background-color: rgb(211, 122, 7);
 }

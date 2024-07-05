@@ -24,21 +24,25 @@ export default function About() {
             <Center><Heading as='h2' size={['xl','2xl','2xl','2xl']}>About Us</Heading></Center>
 
             <Grid templateColumns={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(1, 1fr)','repeat(2, 1fr)']} gap={2} overflow="hidden" mt={["60px"]}>
-              <GridItem  w='100%' h='100%'>
+              <GridItem  w='100%' h='100%' data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" data-aos-delay="500">
               <Center>
-                <Image src="images/tra.jpg"  loading="lazy" mt={["","","","0px",""]}   alt="Traditional Pickles" borderRadius="20px" width={["90%","90%","50%","90%","90%","85%"]} height={["100%","100%","100%","100%"]} ml={["0px","0px","0px"]}/>
+                <Image src="images/PackiaSelvan.jpg"  loading="lazy" mt={["","","","0px",""]}   alt="Traditional Pickles" borderRadius="20px" width={["90%","90%","50%","70%","60%","50%"]} height={["100%","100%","100%","100%"]} ml={["0px","0px","0px"]}/>
                 </Center>
               </GridItem>
-              <GridItem w='100%' h='100%'>
+              <GridItem w='100%' h='100%' data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" data-aos-delay="500">
               <Box w={['100%']} pl={["20px","20px","40px","20px"]} pr={["20px","20px","40px","20px"]} >
                 <Center>
-                <Text   fontFamily="Ubuntu"
+                <Text mt={["10%"]}  fontFamily="Ubuntu"
                     fontWeight="400"
                     fontSize={["17px","17px","18px","18px","22px"]}
                     lineHeight={["40x","40x","38px","30px","43px"]}
                     textAlign="justify"
                     marginBottom="20px" width={["100%","100%","90%"]}>
-                      At Muthumani Pickles, we bring you the rich and authentic flavors of traditional Indian pickles, crafted with care and passion. Founded by Packia Selvan and Muthumani on May 28, 2019, our company is dedicated to preserving the age-old art of pickle making, using only the finest natural ingredients and time-honored techniques.
+                      At Muthumani Pickles, we bring you the rich and authentic flavors of traditional Indian pickles, crafted with care and passion. Founded by <span id="packi">Packia Selvan</span> and <span id="packi">Muthumani</span> on May 28, 2019, our company is dedicated to preserving the age-old art of pickle making, using only the finest natural ingredients and time-honored techniques.
                   </Text>
                 </Center>
                 <Center>
@@ -62,10 +66,12 @@ export default function About() {
 
             {/* Desktop */}
             <Grid display={["none","none","none","flex"]} templateColumns={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(2, 1fr)','repeat(2, 1fr)']} gap={2} overflow="hidden" mt={["50px"]}>
-              <GridItem w='100%' h='100%'>
+              <GridItem w='100%' h='100%' data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" data-aos-delay="500">
               <Box w={['100%']} pl={["20px","20px","40px","20px"]} pr={["20px","20px","40px","20px"]} >
                 <Center>
-                <Text   fontFamily="Ubuntu"
+                <Text mt={["10%"]}  fontFamily="Ubuntu"
                     fontWeight="400"
                     fontSize={["17px","17px","18px","18px","22px"]}
                     lineHeight={["40x","40x","38px","30px","43px"]}
@@ -89,9 +95,11 @@ export default function About() {
               </GridItem>
 
 
-              <GridItem  w='100%' h='100%'>
+              <GridItem  w='100%' h='100%' data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" data-aos-delay="500">
               <Center>
-                <Image src="images/tra.jpg"  loading="lazy" mt={["","","","0px",""]}   alt="Traditional Pickles" borderRadius="20px" width={["90%","90%","50%","90%","90%","85%"]} height={["100%","100%","100%","100%"]} ml={["0px","0px","0px"]}/>
+                <Image src="images/muthumani.jpg"  loading="lazy" mt={["","","","0px",""]}   alt="Traditional Pickles" borderRadius="20px" width={["90%","90%","50%","70%","60%","50%"]} height={["100%","100%","100%","50%"]} ml={["0px","0px","0px"]}/>
                 </Center>
               </GridItem>
 
@@ -102,16 +110,20 @@ export default function About() {
             {/* Mobile */}
             <Grid display={["flex","flex","flex","none"]} flexDir={["column"]} templateColumns={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(2, 1fr)','repeat(2, 1fr)']} gap={2} overflow="hidden" mt={["50px"]}>
               
-            <GridItem  w='100%' h='100%'>
+            <GridItem  w='100%' h='100%' data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" data-aos-delay="500">
               <Center>
-                <Image src="images/tra.jpg"  loading="lazy" mt={["","","","0px",""]}   alt="Traditional Pickles" borderRadius="20px" width={["90%","90%","50%","90%","90%","85%"]} height={["100%","100%","100%","100%"]} ml={["0px","0px","0px"]}/>
+                <Image src="images/muthumani.jpg"  loading="lazy" mt={["","","","0px",""]}   alt="Traditional Pickles" borderRadius="20px" width={["90%","90%","50%","70%","60%","50%"]} height={["100%","100%","100%","100%"]} ml={["0px","0px","0px"]}/>
                 </Center>
               </GridItem>
               
-              <GridItem w='100%' h='100%'>
+              <GridItem w='100%' h='100%' data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" data-aos-delay="500">
               <Box w={['100%']} pl={["20px","20px","40px","20px"]} pr={["20px","20px","40px","20px"]} >
                 <Center>
-                <Text   fontFamily="Ubuntu"
+                <Text mt={["10%"]}    fontFamily="Ubuntu"
                     fontWeight="400"
                     fontSize={["17px","17px","18px","18px","22px"]}
                     lineHeight={["40x","40x","38px","30px","43px"]}

@@ -271,7 +271,7 @@ export default function Home({setActiveButton }) {
                   </SwiperSlide>
 
                   <SwiperSlide>
-                  <Center mt={["40%","20%","30%","19%","17%"]}>
+                  <Center mt={["40%","20%","20%","19%","17%"]}>
                       <Heading  
                       fontWeight="400"
                     fontSize={["20px","24px"]}
@@ -302,7 +302,7 @@ export default function Home({setActiveButton }) {
                   </SwiperSlide>
 
                   <SwiperSlide>
-                  <Center mt={["40%","20%","30%","20%","18%"]}>
+                  <Center mt={["40%","20%","29%","20%","18%"]}>
                       <Heading  
                       fontWeight="400"
                     fontSize={["20px","24px"]}

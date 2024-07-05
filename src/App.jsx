@@ -11,10 +11,15 @@ import Gallery from './pages/Gallery';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
-  const [activeButton, setActiveButton] = useState(1);
+  const [activeButton, setActiveButton] = useState(() => {
+    // Retrieve initial state from local storage if available
+    const savedButton = localStorage.getItem('activeButton');
+    return savedButton ? parseInt(savedButton, 10) : 1;
+  });
 
   const handleButtonClick = (buttonId) => {
     setActiveButton(buttonId);
+    localStorage.setItem('activeButton', buttonId); // Save state to local storage
   };
   return (
     <>

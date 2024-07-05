@@ -269,6 +269,23 @@ export default function Home({setActiveButton }) {
                     <Text textAlign="right"  pt={["10px","10px","20px","50px"]} pb={["0px","0px","0px","0px","0px","40px"]}pr="10%" >-Vel Murugran</Text>
 
                   </SwiperSlide>
+
+                  <SwiperSlide>
+                  <Center mt={["40%","20%","30%","19%","17%"]}>
+                      <Heading  
+                      fontWeight="400"
+                    fontSize={["20px","24px"]}
+                    lineHeight={["30px","45px"]}
+                    textAlign="justify"
+                    width="80%" >
+                        " Absolutely love the Kasturi manjal powder! Its authentic richness enhances every skincare routine. Highly recommend!"
+                      </Heading>
+                    </Center>
+                    <Text textAlign="right" pt={["10px","10px","20px","50px"]}  pb={["0px","0px","0px","0px","0px","40px"]}  pr="10%" >-Priya</Text>
+
+                  </SwiperSlide>
+
+                  
                   <SwiperSlide>
                   <Center mt={["40%","20%","30%","20%","18%"]}>
                       <Heading  
@@ -298,6 +315,8 @@ export default function Home({setActiveButton }) {
                     <Text textAlign="right" pt={["10px","10px","20px","50px"]}  pb={["0px","0px","0px","0px","0px","40px"]}  pr="10%" >-Athinesh Lal </Text>
 
                   </SwiperSlide>
+
+                  
                 </Swiper>
               </Box>
         </Box>

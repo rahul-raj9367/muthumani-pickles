@@ -66,7 +66,7 @@ export default function Navbar({ activeButton, handleButtonClick }) {
               onClick={() => handleButtonClick(1)}
               bg={activeButton === 1 ? '#B31312' : '#ffffff'}
               color={activeButton === 1 ? '#ffffff' : 'black'}
-              _hover={{ bg: activeButton === 1 ? '#B31312' : '#f0f0f0', color: activeButton === 1 ? '#ffffff' : 'black' }}
+              _hover={{ bg: activeButton === 1 ? '#B31312' : 'black', color: activeButton === 1 ? '#ffffff' : '#ffff' }}
 
               
             >
@@ -81,10 +81,11 @@ export default function Navbar({ activeButton, handleButtonClick }) {
               size={['sm', 'sm', 'sm', 'md', 'md']}
               fontSize={["24px", "24px", "18px", "20px", "20px"]}
               as='b'
+              
               onClick={() => handleButtonClick(2)}
               bg={activeButton === 2 ? '#B31312' : '#ffffff'}
               color={activeButton === 2 ? '#ffffff' : 'black'}
-              _hover={{ bg: activeButton === 2 ? '#B31312' : '#f0f0f0', color: activeButton === 2 ? '#ffffff' : 'black' }}
+              _hover={{ bg: activeButton === 2 ? '#B31312' : 'black', color: activeButton === 2 ? '#ffffff' : '#ffff' }}
             >
               ABOUT
             </Button>
@@ -99,7 +100,7 @@ export default function Navbar({ activeButton, handleButtonClick }) {
               onClick={() => handleButtonClick(3)}
               bg={activeButton === 3 ? '#B31312' : '#ffffff'}
               color={activeButton === 3 ? '#ffffff' : 'black'}
-              _hover={{ bg: activeButton === 3 ? '#B31312' : '#f0f0f0', color: activeButton === 3 ? '#ffffff' : 'black' }}
+              _hover={{ bg: activeButton === 3 ? '#B31312' : 'black', color: activeButton === 3 ? '#ffffff' : '#ffff' }}
             >
               PRODUCT
             </Button>
@@ -114,7 +115,7 @@ export default function Navbar({ activeButton, handleButtonClick }) {
               onClick={() => handleButtonClick(4)}
               bg={activeButton === 4 ? '#B31312' : '#ffffff'}
               color={activeButton === 4 ? '#ffffff' : 'black'}
-              _hover={{ bg: activeButton === 4 ? '#B31312' : '#f0f0f0', color: activeButton === 4 ? '#ffffff' : 'black' }}
+              _hover={{ bg: activeButton === 4 ? '#B31312' : 'black', color: activeButton === 4 ? '#ffffff' : '#ffff' }}
             >
               GALLERY
             </Button>
@@ -129,7 +130,7 @@ export default function Navbar({ activeButton, handleButtonClick }) {
               onClick={() => handleButtonClick(5)}
               bg={activeButton === 5 ? '#B31312' : '#ffffff'}
               color={activeButton === 5 ? '#ffffff' : 'black'}
-              _hover={{ bg: activeButton === 5 ? '#B31312' : '#f0f0f0', color: activeButton === 5 ? '#ffffff' : 'black' }}
+              _hover={{ bg: activeButton === 5 ? '#B31312' : 'black', color: activeButton === 5 ? '#ffffff' : '#ffff' }}
             >
               CONTACT
             </Button>

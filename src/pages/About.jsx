@@ -155,7 +155,7 @@ export default function About() {
                     mt={["20px"]}
                     loading="lazy" 
                     overflow="hidden" 
-                    boxSize={["60%", "60%", "35%", "50%", "40%","20%"]} 
+                    boxSize={["60%", "60%", "35%", "50%", "40%"]} 
                     bg="#fff" 
                     p="5px" 
                     src={logo2} 
@@ -180,7 +180,7 @@ export default function About() {
                 mt={["20px","20px","30px","20px"]}
                     loading="lazy" 
                     overflow="hidden" 
-                    boxSize={["60%", "60%", "35%", "50%", "40%","20%"]} 
+                    boxSize={["60%", "60%", "35%", "50%", "40%"]} 
                     bg="#fff" 
                     p="5px" 
                     src={logo} 

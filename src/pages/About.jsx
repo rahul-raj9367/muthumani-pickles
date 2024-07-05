@@ -12,6 +12,9 @@ export default function About() {
    useEffect(()=>{
     Aos.init()
   },[])
+  useEffect(() => {
+    document.title = 'About - MuthuMani Home Made Pickles and Turmeric Powder';
+  }, []);
 
   return (
     <Box className='NAV'>

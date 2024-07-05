@@ -30,7 +30,10 @@ import logo2 from '../assets/s22.svg'
 import logo3 from '../assets/s33.svg'
 
 export default function Home({setActiveButton }) {
-
+    
+  useEffect(() => {
+    document.title = 'MuthuMani Home Made Pickles and Turmeric Powder';
+  }, []);
 
     //Loading 
     const [loading, setLoading] = useState(true);

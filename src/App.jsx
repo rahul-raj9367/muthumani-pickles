@@ -1,5 +1,5 @@
-import { Box, Heading } from '@chakra-ui/react'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Box, Heading } from '@chakra-ui/react';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import ContactUs from './pages/ContactUs';
 import Navbar from './components/Navbar';
@@ -21,22 +21,23 @@ function App() {
     setActiveButton(buttonId);
     localStorage.setItem('activeButton', buttonId); // Save state to local storage
   };
+
   return (
     <>
-      <BrowserRouter basename="/muthumani-pickles/">
-      <Navbar activeButton={activeButton} handleButtonClick={handleButtonClick} />
-      <ScrollToTop/>
+      <HashRouter>
+        <Navbar activeButton={activeButton} handleButtonClick={handleButtonClick} />
+        <ScrollToTop />
         <Routes>
-        <Route index element={<Home setActiveButton={handleButtonClick} />} />
+          <Route index element={<Home setActiveButton={handleButtonClick} />} />
           <Route path="/contact" element={<ContactUs />} />
           <Route path="/product" element={<Product />} />
           <Route path="/about" element={<About />} />
           <Route path="/gallery" element={<Gallery />} />
         </Routes>
-        <Footer  setActiveButton={handleButtonClick}/>
-      </BrowserRouter>
+        <Footer setActiveButton={handleButtonClick} />
+      </HashRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

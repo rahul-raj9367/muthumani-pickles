@@ -138,7 +138,7 @@ export default function Home({setActiveButton }) {
                 </Center>
                   
 
-                  <Link to="/about"><Button bg='#B31312' ml={["","","5%","5%"]} color='#ffffff' leftIcon={<GoRead size={20} />}  onClick={() => setActiveButton(2)}>Read More</Button></Link>
+                  <Link to="/about"><Button bg='#B31312' _hover={{ bg: 'black', color:'#ffff' }} ml={["","","5%","5%"]} color='#ffffff' leftIcon={<GoRead size={20} />}  onClick={() => setActiveButton(2)}>Read More</Button></Link>
                 </Box>
               </GridItem>
             </Grid>

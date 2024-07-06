@@ -60,12 +60,13 @@ export default function ContactUs() {
     document.title = 'ContactUs - MuthuMani Home Made Pickles and Turmeric Powder';
   }, []);
   return (
-    <Box className='NAV'>
+    <Box className='NAV' >
       <Center><Heading pt={["0px"]}   as='h2' size={['xl','2xl','2xl','2xl']}>Contact Us</Heading></Center>
       {/* <Center><Heading  as='h2' mt="50px" width={["90%","90%","90%","70%"]} size={['lg','lg','lg','lg','lg']} color="#B31312" mb="4%" textAlign="center">We would love to hear from you - your feedback, suggestions, and anything you want to share.</Heading></Center> */}
 
       <Center>
-      <Box boxShadow='2xl'  rounded='md' bg='#ffff' width={["90%","90%","80%","90%","90%","70%"]} p={["30px","40px","50px"]}  mt="20px">
+      <Box boxShadow='2xl' overflow="hidden" data-aos="fade-up"
+     data-aos-duration="3000"   rounded='md' bg='#ffff' width={["90%","90%","80%","90%","90%","70%"]} p={["30px","40px","50px"]}  mt="20px">
       <Text fontFamily="Miniver" color="#002D7F" fontSize={["20px","20px","24px"]} fontWeight="400">Dear Customers ,</Text>
           
           <Text fontFamily="Miniver" color="#002D7F"  fontSize={["20px","20px","24px"]}fontWeight="400">We would love to hear from your - your feedback, suggestions and anything you want to know about our products, we are ready to give our best products.</Text>
@@ -73,9 +74,7 @@ export default function ContactUs() {
           <Text fontFamily="Miniver" color="#002D7F"  fontSize={["20px","20px","24px"]} fontWeight="400" mb="0px">  Regards,</Text>
           <Text fontFamily="Miniver" color="#002D7F"  fontSize={["20px","20px","24px"]}  fontWeight="400">Muthumani Pickles, Mukkudal. </Text>
       <Grid templateColumns={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(1, 1fr)','repeat(2, 1fr)']} gap={6} overflow="hidden" mt="10px" pb="30px">
-            <GridItem w='100%' h='100%' mt="50px" data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine" data-aos-delay="500">
+            <GridItem w='100%' h='100%' mt="50px" >
                   <Grid templateRows={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(3, 1fr)','repeat(3, 1fr)']} gap={[10]} >
                   <GridItem w='100%' h='100%' >
                     <Flex alignItems="center" gap={4} flexDirection={["column","column","row"]}>
@@ -102,9 +101,7 @@ export default function ContactUs() {
               
 
               {/* Form */}
-            <GridItem w='100%' h='100%' data-aos="fade-left"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine" data-aos-delay="500" > 
+            <GridItem w='100%' h='100%' > 
         <form >
 
           {/* {showSuccessAlert && (

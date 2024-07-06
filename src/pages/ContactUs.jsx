@@ -73,19 +73,19 @@ export default function ContactUs() {
                   <Grid templateRows={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(3, 1fr)','repeat(3, 1fr)']} gap={[10]} >
                   <GridItem w='100%' h='100%' >
                     <Flex alignItems="center" gap={4} flexDirection={["column","column","row"]}>
-                        <Image   loading="lazy"  src={logo} overflow="hidden" boxSize={["30%", "30%", "18%", "18%", "18%"]}  />
+                        <Image   loading="lazy"  src={logo} overflow="hidden" boxSize={["30%", "30%", "15%", "18%", "18%"]}  />
                         <Text width={["90%","90%","70%"]} fontSize={["md","md","lg","lg"]} pt="10px" textAlign={["center","center","justify"]} >Muthumani Pickles 12/2 Thiyagarajar Street Mukkudal Pin-code: 627601 Tirunelveli District Tamilnadu, India</Text>
                     </Flex>
                     </GridItem> 
                     <GridItem w='100%' h='100%'>
                     <Flex alignItems="center" gap={4} flexDirection={["column","column","row"]}>
-                        <Image   loading="lazy"  src={logo2} overflow="hidden" boxSize={["30%", "30%", "18%", "18%", "18%"]}  />
+                        <Image   loading="lazy"  src={logo2} overflow="hidden" boxSize={["30%", "30%", "15%", "18%", "18%"]}  />
                         <Text  width={["100%","90%","70%"]} fontSize={["md","md","lg","lg"]} pt="10px" textAlign={["center","center","justify"]}> <a href="tel:+919442256790" cursor="pointer" >+91 9442256790 </a> <a href="tel:+919025957223" cursor="pointer" >+91 9025957223 </a></Text>
                     </Flex>
                     </GridItem> 
                     <GridItem w='100%' h='100%'>
                         <Flex alignItems="center" gap={[2,2,10]} flexDirection={["column","column","row"]}>
-                            <Image loading="lazy"  src={logo3} overflow="hidden" boxSize={["30%", "30%", "18%", "18%", "18%"]}  />
+                            <Image loading="lazy"  src={logo3} overflow="hidden" boxSize={["30%", "30%", "15%", "18%", "18%"]}  />
                             <Text  width={["100%","90%","70%"]} textAlign={["center","center","left","left"]} fontSize={["md","md","lg","lg"]} pt="10px"><a href="mailto: muthumanipickles@gmail.com" target="_blank">muthumanipickles@gmail.com</a></Text>
                         </Flex>
                     </GridItem> 

@@ -143,84 +143,84 @@ export default function ContactUs() {
               </GridItem> 
               
 
-              {/* Form */}
+            {/* Form */}
             <GridItem w='100%' h='100%' > 
-        <form onSubmit={handleSubmit}>
+              <form onSubmit={handleSubmit}>
 
-          {showSuccessAlert && (
-          <Alert
-          status='success'
-          variant='subtle'
-          flexDirection='column'
-          alignItems='center'
-          justifyContent='center'
-          textAlign='center'
-          height='200px'
-          >
-          <AlertIcon boxSize='60px' mr={0} />
-            <AlertTitle mt={4} mb={1} fontSize='lg'>
-              Successfully submitted!
-            </AlertTitle>
-            <AlertDescription maxWidth='sm'>
-              Thanks for submitting your submission.
-            </AlertDescription>
-          </Alert>
-          )}
+            {showSuccessAlert && (
+            <Alert
+            status='success'
+            variant='subtle'
+            flexDirection='column'
+            alignItems='center'
+            justifyContent='center'
+            textAlign='center'
+            height='200px'
+            >
+            <AlertIcon boxSize='60px' mr={0} />
+              <AlertTitle mt={4} mb={1} fontSize='lg'>
+                Successfully submitted!
+              </AlertTitle>
+              <AlertDescription maxWidth='sm'>
+                Thanks for submitting your submission.
+              </AlertDescription>
+            </Alert>
+            )}
 
-            <FormControl isRequired mt="20px">  
-                  <FormLabel htmlFor='name' fontWeight={400}>Name</FormLabel>
-                  <Input
-                      size='lg' 
-                      type="text"
-                      name="name"
-                      placeholder='Please enter name'
-                      value={name}
-                      onChange={(e) => setName(e.target.value)}
-                      autoComplete="off"
-                  />
-            </FormControl>
+              <FormControl isRequired mt="20px">  
+                    <FormLabel htmlFor='name' fontWeight={400}>Name</FormLabel>
+                    <Input
+                        size='lg' 
+                        type="text"
+                        name="name"
+                        placeholder='Please enter name'
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
+                        autoComplete="off"
+                    />
+              </FormControl>
 
-            <FormControl isRequired mt="20px">  
-              <FormLabel htmlFor='email' fontWeight={400}>Email</FormLabel>
-              <Input
-                size='lg' 
-                type="email"
-                name="email"
-                placeholder='Please enter email'
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
+              <FormControl isRequired mt="20px">  
+                <FormLabel htmlFor='email' fontWeight={400}>Email</FormLabel>
+                <Input
+                  size='lg' 
+                  type="email"
+                  name="email"
+                  placeholder='Please enter email'
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  autoComplete="off"
+                />
+              </FormControl>
+
+              <FormControl isRequired mt="20px">
+                <FormLabel fontWeight={400}>Phone Number</FormLabel>
+                <Input
+                  type="tel"  
+                  placeholder='Please enter phone number'
+                  name="mobileNumber"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
+                  autoComplete="off"
+                />
+              </FormControl>
+
+              <FormControl isRequired mt="20px">  
+                <FormLabel htmlFor='Message' fontWeight={400}>Message</FormLabel>
+                <Textarea 
+                  name="message"
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
+                placeholder='Plese enter your message'
                 autoComplete="off"
-              />
-            </FormControl>
+                />
+                
+              </FormControl>
 
-            <FormControl isRequired mt="20px">
-              <FormLabel fontWeight={400}>Phone Number</FormLabel>
-              <Input
-                type="tel"  
-                placeholder='Please enter phone number'
-                name="mobileNumber"
-                value={phone}
-                onChange={(e) => setPhone(e.target.value)}
-                autoComplete="off"
-              />
-            </FormControl>
-
-            <FormControl isRequired mt="20px">  
-              <FormLabel htmlFor='Message' fontWeight={400}>Message</FormLabel>
-              <Textarea 
-                name="message"
-                value={message}
-                onChange={(e) => setMessage(e.target.value)}
-              placeholder='Plese enter your message'
-              autoComplete="off"
-              />
-              
-            </FormControl>
-
-            <Box mt="20px">
-            <Button  _hover={{ bg:'#059212', color: 'white' }}  color='white' bg='#059212' w={["100%"]}  type="submit" >Submit</Button>
-            </Box>
-            </form>
+              <Box mt="20px">
+              <Button  _hover={{ bg:'#059212', color: 'white' }}  color='white' bg='#059212' w={["100%"]}  type="submit" >Submit</Button>
+              </Box>
+              </form>
             </GridItem>        
             </Grid>
       </Box>

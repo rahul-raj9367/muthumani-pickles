@@ -86,7 +86,7 @@ export default function ContactUs() {
                     <GridItem w='100%' h='100%'>
                         <Flex alignItems="center" gap={[2,2,10]} flexDirection={["column","column","row"]}>
                             <Image loading="lazy"  src={logo3} overflow="hidden" boxSize={["30%", "30%", "20%", "20%", "18%"]} />
-                            <Text  width={["100%","90%","70%"]} textAlign={["center","center","center","left"]} fontSize={["md","md","lg","lg"]} pt="10px"><a href="mailto: muthumanipickles@gmail.com" target="_blank">muthumanipickles@gmail.com</a></Text>
+                            <Text  width={["100%","90%","70%"]} textAlign={["center","center","left","left"]} fontSize={["md","md","lg","lg"]} pt="10px"><a href="mailto: muthumanipickles@gmail.com" target="_blank">muthumanipickles@gmail.com</a></Text>
                         </Flex>
                     </GridItem> 
                   </Grid>
@@ -94,9 +94,11 @@ export default function ContactUs() {
                  
               </GridItem> 
               
+
+              {/* Form */}
             <GridItem w='100%' h='100%' data-aos="fade-left"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine" data-aos-delay="500" > 
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine" data-aos-delay="500" > 
         <form >
 
           {/* {showSuccessAlert && (

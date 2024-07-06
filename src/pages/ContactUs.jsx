@@ -65,7 +65,7 @@ export default function ContactUs() {
       {/* <Center><Heading  as='h2' mt="50px" width={["90%","90%","90%","70%"]} size={['lg','lg','lg','lg','lg']} color="#B31312" mb="4%" textAlign="center">We would love to hear from you - your feedback, suggestions, and anything you want to share.</Heading></Center> */}
 
       <Center>
-      <Box boxShadow='2xl'  rounded='md' bg='#ffff' width={["90%","90%","70%","90%","90%","70%"]} p={["30px","40px","50px"]}  mt="20px">
+      <Box boxShadow='2xl'  rounded='md' bg='#ffff' width={["90%","90%","80%","90%","90%","70%"]} p={["30px","40px","50px"]}  mt="20px">
       <Text fontFamily="Miniver" color="#002D7F" fontSize={["20px","20px","24px"]} fontWeight="400">Dear Customers ,</Text>
           
           <Text fontFamily="Miniver" color="#002D7F"  fontSize={["20px","20px","24px"]}fontWeight="400">We would love to hear from your - your feedback, suggestions and anything you want to know about our products, we are ready to give our best products.</Text>

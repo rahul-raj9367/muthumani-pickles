@@ -62,10 +62,16 @@ export default function ContactUs() {
   return (
     <Box className='NAV'>
       <Center><Heading pt={["0px"]}   as='h2' size={['xl','2xl','2xl','2xl']}>Contact Us</Heading></Center>
-      <Center><Heading  as='h2' mt="50px" width={["90%","90%","90%","70%"]} size={['lg','lg','lg','lg','lg']} color="#B31312" mb="4%" textAlign="center">We would love to hear from you - your feedback, suggestions, and anything you want to share.</Heading></Center>
+      {/* <Center><Heading  as='h2' mt="50px" width={["90%","90%","90%","70%"]} size={['lg','lg','lg','lg','lg']} color="#B31312" mb="4%" textAlign="center">We would love to hear from you - your feedback, suggestions, and anything you want to share.</Heading></Center> */}
 
       <Center>
       <Box boxShadow='2xl'  rounded='md' bg='#ffff' width={["90%","90%","70%","90%","90%","70%"]} p={["30px","40px","50px"]}  mt="20px">
+      <Text fontFamily="Miniver" color="#002D7F" fontSize={["20px","20px","24px"]} fontWeight="400">Dear Customers ,</Text>
+          
+          <Text fontFamily="Miniver" color="#002D7F"  fontSize={["20px","20px","24px"]}fontWeight="400">We would love to hear from your - your feedback, suggestions and anything you want to know about our products, we are ready to give our best products.</Text>
+          <Text fontFamily="Miniver" color="#002D7F"  fontSize={["20px","20px","24px"]} fontWeight="400">Happy shopping! </Text>
+          <Text fontFamily="Miniver" color="#002D7F"  fontSize={["20px","20px","24px"]} fontWeight="400" mb="0px">  Regards,</Text>
+          <Text fontFamily="Miniver" color="#002D7F"  fontSize={["20px","20px","24px"]}  fontWeight="400">Muthumani Pickles, Mukkudal. </Text>
       <Grid templateColumns={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(1, 1fr)','repeat(2, 1fr)']} gap={6} overflow="hidden" mt="10px" pb="30px">
             <GridItem w='100%' h='100%' mt="50px" data-aos="fade-right"
      data-aos-offset="300"
@@ -171,11 +177,11 @@ export default function ContactUs() {
             <Button  _hover={{ bg:'#059212', color: 'white' }}  color='white' bg='#059212' w={["100%"]}  type="submit" >Submit</Button>
             </Box>
             </form>
-            </GridItem> 
-      </Grid>
+            </GridItem>        
+            </Grid>
       </Box>
-      </Center>
+    </Center>
      
-    </Box>
-  )
+  </Box>
+  );
 }

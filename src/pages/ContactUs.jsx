@@ -15,6 +15,8 @@ import logo from '../assets/map.svg'
 import logo2 from '../assets/call.svg'
 import logo3 from '../assets/mail.svg'
 
+import emailjs from '@emailjs/browser';
+
 export default function ContactUs() {
 
   // const initialFormData = {
@@ -55,6 +57,47 @@ export default function ContactUs() {
   //   }
   // };
 
+  const [name,setName]=useState('');
+  const [email,setEmail]=useState('');
+  const [phone,setPhone]=useState('');
+  const [message,setMessage]=useState('');
+
+  const [showSuccessAlert, setShowSuccessAlert] = useState(false);
+  const handleSubmit = (e) =>{
+    e.preventDefault();
+    
+    const serviceId ="service_u8fladj";
+    const templateId="template_1hffrab";
+    const publicKey="0u9fWxcpIV7YXmBrR";
+
+    const templateParams ={
+      name: name,
+      email: email,
+      phone: phone,
+      to_name: 'Rahul Raj',
+      message :message,
+    };
+  
+    emailjs.send(serviceId,templateId,templateParams,publicKey)
+    .then((response)=>{
+        console.log('Email send Successfully',response);
+        setName('');
+        setEmail('');
+        setPhone('');
+        setMessage(''); 
+        
+        setShowSuccessAlert(true);
+      setTimeout(() => {
+        setShowSuccessAlert(false);
+      }, 3000);
+    })
+    .catch((error)=>{
+      console.log('Error sending email:',error);
+    });
+  }
+
+  
+
 
   useEffect(() => {
     document.title = 'ContactUs - MuthuMani Home Made Pickles and Turmeric Powder';
@@ -73,7 +116,7 @@ export default function ContactUs() {
           <Text fontFamily="Miniver" color="#002D7F"  fontSize={["20px","20px","24px"]} fontWeight="400">Happy shopping! </Text>
           <Text fontFamily="Miniver" color="#002D7F"  fontSize={["20px","20px","24px"]} fontWeight="400" mb="0px">  Regards,</Text>
           <Text fontFamily="Miniver" color="#002D7F"  fontSize={["20px","20px","24px"]}  fontWeight="400">Muthumani Pickles, Mukkudal. </Text>
-      <Grid templateColumns={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(1, 1fr)','repeat(2, 1fr)']} gap={6} overflow="hidden" mt="10px" pb="30px">
+          <Grid templateColumns={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(1, 1fr)','repeat(2, 1fr)']} gap={6} overflow="hidden" mt="10px" pb="30px">
             <GridItem w='100%' h='100%' mt="50px" >
                   <Grid templateRows={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(3, 1fr)','repeat(3, 1fr)']} gap={[10]} >
                   <GridItem w='100%' h='100%' >
@@ -102,9 +145,9 @@ export default function ContactUs() {
 
               {/* Form */}
             <GridItem w='100%' h='100%' > 
-        <form >
+        <form onSubmit={handleSubmit}>
 
-          {/* {showSuccessAlert && (
+          {showSuccessAlert && (
           <Alert
           status='success'
           variant='subtle'
@@ -122,7 +165,7 @@ export default function ContactUs() {
               Thanks for submitting your submission.
             </AlertDescription>
           </Alert>
-          )} */}
+          )}
 
             <FormControl isRequired mt="20px">  
                   <FormLabel htmlFor='name' fontWeight={400}>Name</FormLabel>
@@ -131,7 +174,8 @@ export default function ContactUs() {
                       type="text"
                       name="name"
                       placeholder='Please enter name'
-                    
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
                       autoComplete="off"
                   />
             </FormControl>
@@ -143,7 +187,8 @@ export default function ContactUs() {
                 type="email"
                 name="email"
                 placeholder='Please enter email'
-              
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
                 autoComplete="off"
               />
             </FormControl>
@@ -154,7 +199,8 @@ export default function ContactUs() {
                 type="tel"  
                 placeholder='Please enter phone number'
                 name="mobileNumber"
-              
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)}
                 autoComplete="off"
               />
             </FormControl>
@@ -163,7 +209,8 @@ export default function ContactUs() {
               <FormLabel htmlFor='Message' fontWeight={400}>Message</FormLabel>
               <Textarea 
                 name="message"
-                
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
               placeholder='Plese enter your message'
               autoComplete="off"
               />

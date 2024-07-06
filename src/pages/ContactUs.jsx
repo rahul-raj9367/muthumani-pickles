@@ -61,7 +61,7 @@ export default function ContactUs() {
   }, []);
   return (
     <Box className='NAV'>
-      <Center><Heading pt={["50px"]}   as='h2' size={['xl','2xl','2xl','2xl']}>Contact Us</Heading></Center>
+      <Center><Heading pt={["30px"]}   as='h2' size={['xl','2xl','2xl','2xl']}>Contact Us</Heading></Center>
       <Center><Heading  as='h2' mt="50px" width={["90%","90%","90%","70%"]} size={['lg','lg','lg','lg','lg']} color="#B31312" mb="4%" textAlign="center">We would love to hear from you - your feedback, suggestions, and anything you want to share.</Heading></Center>
 
       <Center>

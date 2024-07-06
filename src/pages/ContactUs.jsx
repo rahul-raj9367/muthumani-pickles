@@ -65,33 +65,30 @@ export default function ContactUs() {
       <Center><Heading  as='h2' mt="50px" width={["90%","90%","90%","70%"]} size={['lg','lg','lg','lg','lg']} color="#B31312" mb="4%" textAlign="center">We would love to hear from you - your feedback, suggestions, and anything you want to share.</Heading></Center>
 
       <Center>
-      <Box boxShadow='2xl'  rounded='md' bg='#ffff' width={["90%","90%","70%","90%","90%","70%"]} p={["30px","40px","50px"]} >
+      <Box boxShadow='2xl'  rounded='md' bg='#ffff' width={["90%","90%","70%","90%","90%","70%"]} p={["30px","40px","50px"]}  mt="20px">
       <Grid templateColumns={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(1, 1fr)','repeat(2, 1fr)']} gap={6} overflow="hidden" mt="10px" pb="30px">
             <GridItem w='100%' h='100%' mt="50px">
                   <Grid templateRows={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(3, 1fr)','repeat(3, 1fr)']} gap={[10]} >
                   <GridItem w='100%' h='100%' >
                     <Flex alignItems="center" gap={4} flexDirection={["column","column","row"]}>
-                        <Image   loading="lazy"  src={logo} overflow="hidden" boxSize={["30%", "30%", "20%", "20%", "18%"]}  data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine" data-aos-delay="500"/>
+                        <Image   loading="lazy"  src={logo} overflow="hidden" boxSize={["30%", "30%", "20%", "20%", "18%"]}  data-aos="fade-down"
+     data-aos-duration="3000"/>
                         <Text width={["90%","90%","70%"]} fontSize={["md","md","lg","lg"]} pt="10px" textAlign={["center","center","justify"]} data-aos="fade-up"
      data-aos-duration="3000">Muthumani Pickles 12/2 Thiyagarajar Street Mukkudal Pin-code: 627601 Tirunelveli District Tamilnadu, India</Text>
                     </Flex>
                     </GridItem> 
                     <GridItem w='100%' h='100%'>
                     <Flex alignItems="center" gap={4} flexDirection={["column","column","row"]}>
-                        <Image   loading="lazy"  src={logo2} overflow="hidden" boxSize={["30%", "30%", "20%", "20%", "18%"]} data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine" data-aos-delay="500"/>
+                        <Image   loading="lazy"  src={logo2} overflow="hidden" boxSize={["30%", "30%", "20%", "20%", "18%"]} data-aos="fade-down"
+     data-aos-duration="3000"/>
                         <Text data-aos="fade-up"
      data-aos-duration="3000" width={["100%","90%","70%"]} fontSize={["md","md","lg","lg"]} pt="10px" textAlign={["center","center","justify"]}> <a href="tel:+919442256790" cursor="pointer" >+91 9442256790 </a> <a href="tel:+919025957223" cursor="pointer" >+91 9025957223 </a></Text>
                     </Flex>
                     </GridItem> 
                     <GridItem w='100%' h='100%'>
                         <Flex alignItems="center" gap={[2,2,10]} flexDirection={["column","column","row"]}>
-                            <Image loading="lazy"  src={logo3} overflow="hidden" boxSize={["30%", "30%", "20%", "20%", "18%"]} data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine" data-aos-delay="500"/>
+                            <Image loading="lazy"  src={logo3} overflow="hidden" boxSize={["30%", "30%", "20%", "20%", "18%"]} data-aos="fade-down"
+     data-aos-duration="3000"/>
                             <Text data-aos="fade-up"
      data-aos-duration="3000" width={["100%","90%","70%"]} textAlign={["center","center","center","left"]} fontSize={["md","md","lg","lg"]} pt="10px"><a href="mailto: muthumanipickles@gmail.com" target="_blank">muthumanipickles@gmail.com</a></Text>
                         </Flex>

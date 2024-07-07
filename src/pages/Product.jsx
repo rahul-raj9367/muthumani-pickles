@@ -163,7 +163,7 @@ export default function Product() {
       <Center mt="50px" pl={["5%","5%","2%"]} pr={["5%","5%","2%"]}>
               <Card boxShadow='2xl' borderRadius="20px"  border="3px solid" borderColor="#f2f2f2"  >
               <CardBody>
-               <Image src="images/turmeric.jpg" loading="lazy" alt="turmeric" borderRadius="20px" height="400px" width="100%"  transition="transform 0.3s"
+               <Image src="images/turmeric.jpg" loading="lazy" alt="turmeric" borderRadius="20px" height={["100%","100%","400px"]} width="100%"  transition="transform 0.3s"
         _hover={{ transform: 'scale(1.1)' }}/>
                 </CardBody>
                 <Center>

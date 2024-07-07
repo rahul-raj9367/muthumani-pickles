@@ -15,7 +15,8 @@ export default function Product() {
       {/* Product */}
       <Box mt={["50px"]}>
       <Center><Heading as='h2' size={['xl','2xl','2xl','2xl']}>Pickles</Heading></Center>
-      <Grid pl={["5%","5%","2%"]} pr={["5%","5%","2%"]} className='welcome' templateColumns={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(2, 1fr)','repeat(2, 1fr)','repeat(4, 1fr)']} gap={6}>
+      <Grid pl={["5%","5%","2%"]} pr={["5%","5%","2%"]} data-aos="fade-up"
+     data-aos-duration="3000" className='welcome' templateColumns={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(2, 1fr)','repeat(2, 1fr)','repeat(4, 1fr)']} gap={6}>
           <GridItem  mt="50px" >
               <Center>
               <Card boxShadow='2xl' borderRadius="20px"  border="3px solid" borderColor="#f2f2f2"  >
@@ -86,7 +87,8 @@ export default function Product() {
               </Center>
           </GridItem>
         </Grid>
-      <Grid pl={["5%","5%","2%"]} pr={["5%","5%","2%"]} className='welcome' templateColumns={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(2, 1fr)','repeat(2, 1fr)','repeat(4, 1fr)']} gap={6}>
+      <Grid pl={["5%","5%","2%"]} data-aos="fade-up"
+     data-aos-duration="3000" pr={["5%","5%","2%"]} className='welcome' templateColumns={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(2, 1fr)','repeat(2, 1fr)','repeat(4, 1fr)']} gap={6}>
           <GridItem  mt="50px" >
               <Center>
               <Card boxShadow='2xl' borderRadius="20px"  border="3px solid" borderColor="#f2f2f2" >
@@ -160,7 +162,8 @@ export default function Product() {
       </Box>
       <Box mt={["100px"]}>
       <Center><Heading as='h2' size={['xl','2xl','2xl','2xl']}>Kasthuri Manjal Powder</Heading></Center>
-      <Center mt="50px" pl={["5%","5%","2%"]} pr={["5%","5%","2%"]}>
+      <Center data-aos="fade-up"
+     data-aos-duration="3000" mt="50px" pl={["5%","5%","2%"]} pr={["5%","5%","2%"]}>
               <Card boxShadow='2xl' borderRadius="20px"  border="3px solid" borderColor="#f2f2f2"  >
               <CardBody>
                <Image src="images/turmeric.jpg" loading="lazy" alt="turmeric" borderRadius="20px" height={["100%","100%","400px"]} width="100%"  transition="transform 0.3s"

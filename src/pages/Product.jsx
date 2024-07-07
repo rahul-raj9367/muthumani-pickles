@@ -20,7 +20,7 @@ export default function Product() {
               <Center>
               <Card boxShadow='2xl' borderRadius="20px"  border="3px solid" borderColor="#f2f2f2"  data-aos="fade-down" data-aos-delay="100">
               <CardBody>
-               <Image src="images/lemon7.jpg"   loading="lazy"  alt="wolf_Tattoo" borderRadius="20px" height="100%" width="100%"  transition="transform 0.3s"
+               <Image src="images/lemon7.jpg"   loading="lazy"  alt="lemon7" borderRadius="20px" height="100%" width="100%"  transition="transform 0.3s"
         _hover={{ transform: 'scale(1.1)' }}/>
                 </CardBody>
                 <Center>
@@ -38,7 +38,7 @@ export default function Product() {
           <Center>
               <Card boxShadow='2xl' borderRadius="20px"  border="3px solid" borderColor="#f2f2f2" data-aos="fade-down" data-aos-delay="100">
               <CardBody>
-                <Image src="images/citron7.jpg"   loading="lazy"  alt="Pheonix_Tattoo" borderRadius="20px" height="100%" width="100%"  transition="transform 0.3s"
+                <Image src="images/citron7.jpg"   loading="lazy"  alt="citron7" borderRadius="20px" height="100%" width="100%"  transition="transform 0.3s"
         _hover={{ transform: 'scale(1.1)' }}/>
                 </CardBody>
                 <Center>
@@ -55,7 +55,7 @@ export default function Product() {
           <Center>
               <Card boxShadow='2xl' borderRadius="20px"  border="3px solid" borderColor="#f2f2f2" data-aos="fade-down" data-aos-delay="100">
               <CardBody>
-              <Image src="images/kath7.jpg"   loading="lazy"  alt="HonyBee_Tattoo" borderRadius="20px" height="100%" width="100%"  transition="transform 0.3s"
+              <Image src="images/kath7.jpg"   loading="lazy"  alt="Kathambam" borderRadius="20px" height="100%" width="100%"  transition="transform 0.3s"
         _hover={{ transform: 'scale(1.1)' }}/>
                 </CardBody>
                 <Center>
@@ -72,7 +72,7 @@ export default function Product() {
           <Center>
               <Card boxShadow='2xl' borderRadius="20px"  border="3px solid" borderColor="#f2f2f2" data-aos="fade-down" data-aos-delay="100">
               <CardBody>
-              <Image src="images/citron7.jpg"   loading="lazy"  alt="Lord_Shiva_Tattoo" borderRadius="20px" height="100%" width="100%"  transition="transform 0.3s"
+              <Image src="images/citron7.jpg"   loading="lazy"  alt="citron7" borderRadius="20px" height="100%" width="100%"  transition="transform 0.3s"
         _hover={{ transform: 'scale(1.1)' }}/>
                 </CardBody>
                 <Center>
@@ -91,7 +91,7 @@ export default function Product() {
               <Center>
               <Card boxShadow='2xl' borderRadius="20px"  border="3px solid" borderColor="#f2f2f2" data-aos="fade-down" data-aos-delay="100">
               <CardBody>
-               <Image src="images/lemon50.jpg"   loading="lazy"  alt="wolf_Tattoo" borderRadius="20px" height="100%" width="100%"  transition="transform 0.3s"
+               <Image src="images/lemon50.jpg"   loading="lazy"  alt="lemon50" borderRadius="20px" height="100%" width="100%"  transition="transform 0.3s"
         _hover={{ transform: 'scale(1.1)' }}/>
                 </CardBody>
                 <Center>
@@ -109,7 +109,7 @@ export default function Product() {
           <Center>
               <Card boxShadow='2xl' borderRadius="20px"  border="3px solid" borderColor="#f2f2f2" data-aos="fade-down" data-aos-delay="100">
               <CardBody>
-                <Image src="images/citron50.jpg"   loading="lazy"  alt="Pheonix_Tattoo" borderRadius="20px" height="100%" width="100%"  transition="transform 0.3s"
+                <Image src="images/citron50.jpg"   loading="lazy"  alt="citron50" borderRadius="20px" height="100%" width="100%"  transition="transform 0.3s"
         _hover={{ transform: 'scale(1.1)' }}/>
                 </CardBody>
                 <Center>
@@ -126,7 +126,7 @@ export default function Product() {
           <Center>
               <Card boxShadow='2xl' borderRadius="20px"  border="3px solid" borderColor="#f2f2f2" data-aos="fade-down" data-aos-delay="100">
               <CardBody>
-              <Image src="images/kath50.jpg"   loading="lazy"  alt="HonyBee_Tattoo" borderRadius="20px" height="100%" width="100%"  transition="transform 0.3s"
+              <Image src="images/kathambam50.jpg"  loading="lazy" alt="Kathambam" borderRadius="20px" height="100%" width="100%"  transition="transform 0.3s"
         _hover={{ transform: 'scale(1.1)' }}/>
                 </CardBody>
                 <Center>
@@ -143,7 +143,7 @@ export default function Product() {
           <Center>
               <Card boxShadow='2xl' borderRadius="20px"  border="3px solid" borderColor="#f2f2f2" data-aos="fade-down" data-aos-delay="100">
               <CardBody>
-              <Image src="images/garlic50.jpg"   loading="lazy"  alt="Lord_Shiva_Tattoo" borderRadius="20px" height="100%" width="100%" transition="transform 0.3s"
+              <Image src="images/garlic50.jpg" loading="lazy" alt="garlic50" borderRadius="20px" height="100%" width="100%" transition="transform 0.3s"
         _hover={{ transform: 'scale(1.1)' }}/>
                 </CardBody>
                 <Center>
@@ -163,7 +163,7 @@ export default function Product() {
       <Center mt="50px" pl={["5%","5%","2%"]} pr={["5%","5%","2%"]}>
               <Card boxShadow='2xl' borderRadius="20px"  border="3px solid" borderColor="#f2f2f2"  data-aos="fade-down" data-aos-delay="100">
               <CardBody>
-               <Image src="images/turmeric.jpg"   loading="lazy"  alt="wolf_Tattoo" borderRadius="20px" height="400px" width="100%"  transition="transform 0.3s"
+               <Image src="images/turmeric.jpg" loading="lazy" alt="turmeric" borderRadius="20px" height="400px" width="100%"  transition="transform 0.3s"
         _hover={{ transform: 'scale(1.1)' }}/>
                 </CardBody>
                 <Center>

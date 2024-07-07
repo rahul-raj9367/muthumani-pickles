@@ -28,7 +28,7 @@ export default function About() {
      data-aos-offset="300"
      data-aos-easing="ease-in-sine" data-aos-delay="500">
               <Center>
-                <Image src="images/PackiaSelvan.jpg"  loading="lazy" mt={["","","","0px",""]}   alt="Traditional Pickles" borderRadius="20px" width={["90%","90%","50%","60%","60%","50%"]} height={["100%","100%","100%","100%"]} ml={["0px","0px","0px"]}/>
+                <Image src="images/PackiaSelvan.png"  loading="lazy" mt={["","","","0px",""]}   alt="Traditional Pickles" borderRadius="20px" width={["90%","90%","50%","60%","60%","50%"]} height={["100%","100%","100%","100%"]} ml={["0px","0px","0px"]}/>
                 </Center>
               </GridItem>
               <GridItem w='100%' h='100%' data-aos="fade-left"
@@ -102,7 +102,7 @@ export default function About() {
      data-aos-offset="300"
      data-aos-easing="ease-in-sine" data-aos-delay="500">
               <Center>
-                <Image src="images/muthumani.jpg"  loading="lazy" mt={["","","","0px",""]}   alt="Traditional Pickles" borderRadius="20px" width={["90%","90%","50%","60%","60%","50%"]} height={["100%","100%","100%","50%"]} ml={["0px","0px","0px"]}/>
+                <Image src="images/muthumani.png"  loading="lazy" mt={["","","","0px",""]}   alt="Traditional Pickles" borderRadius="20px" width={["90%","90%","50%","60%","60%","50%"]} height={["100%","100%","100%","50%"]} ml={["0px","0px","0px"]}/>
                 </Center>
               </GridItem>
 
@@ -117,7 +117,7 @@ export default function About() {
      data-aos-offset="300"
      data-aos-easing="ease-in-sine" data-aos-delay="500">
               <Center>
-                <Image src="images/PackiaSelvan.jpg"  loading="lazy" mt={["","","","0px",""]}   alt="Traditional Pickles" borderRadius="20px" width={["90%","90%","50%","70%","60%","50%"]} height={["100%","100%","100%","100%"]} ml={["0px","0px","0px"]}/>
+                <Image src="images/PackiaSelvan.png"  loading="lazy" mt={["","","","0px",""]}   alt="Traditional Pickles" borderRadius="20px" width={["90%","90%","50%","70%","60%","50%"]} height={["100%","100%","100%","100%"]} ml={["0px","0px","0px"]}/>
                 </Center>
               </GridItem>
               
@@ -161,7 +161,7 @@ export default function About() {
      data-aos-offset="300"
      data-aos-easing="ease-in-sine" data-aos-delay="500">
               <Center>
-                <Image src="images/muthumani.jpg"  loading="lazy" mt={["","","","0px",""]}   alt="Traditional Pickles" borderRadius="20px" width={["90%","90%","50%","70%","60%","50%"]} height={["100%","100%","100%","100%"]} ml={["0px","0px","0px"]}/>
+                <Image src="images/muthumani.png"  loading="lazy" mt={["","","","0px",""]}   alt="Traditional Pickles" borderRadius="20px" width={["90%","90%","50%","70%","60%","50%"]} height={["100%","100%","100%","100%"]} ml={["0px","0px","0px"]}/>
                 </Center>
               </GridItem>
               

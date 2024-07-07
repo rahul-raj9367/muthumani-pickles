@@ -211,7 +211,7 @@ export default function ContactUs() {
                   name="message"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
-                placeholder='Plese enter your message'
+                placeholder='Please enter your message'
                 autoComplete="off"
                 />
                 

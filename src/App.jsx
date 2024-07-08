@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter,HashRouter , Routes, Route } from 'react-router-dom';
 import { ChakraProvider } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import Home from './pages/Home';
@@ -24,7 +24,7 @@ function App() {
 
   return (
     <ChakraProvider>
-      <BrowserRouter basename="/">
+      <HashRouter basename="/">
         <Navbar activeButton={activeButton} handleButtonClick={handleButtonClick} />
         <ScrollToTop />
         <Routes>
@@ -36,7 +36,7 @@ function App() {
           <Route path="*" element={<PageError setActiveButton={handleButtonClick}/>} />
         </Routes>
         <Footer setActiveButton={handleButtonClick} />
-      </BrowserRouter>
+      </HashRouter>
     </ChakraProvider>
   );
 }

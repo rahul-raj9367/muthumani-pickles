@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Flex, Heading,List,ListItem,Text,Button,Center,Image, Divider,IconButton,Spinner,theme} from "@chakra-ui/react"
-import { NavLink,Link } from "react-router-dom";
+import { NavLink,Link,useLocation  } from "react-router-dom";
 import { ArrowForwardIcon} from '@chakra-ui/icons'
 import { HamburgerIcon,CloseIcon } from '@chakra-ui/icons';
 import { useState ,useEffect} from "react";
@@ -9,7 +9,30 @@ import logo from '../assets/logo.svg'
 import '../style.css';
 
 export default function Navbar({ activeButton, handleButtonClick }) {
-    const [displayy,ChangeDisplayy]=useState('none')
+  const [displayy, ChangeDisplayy] = useState('none');
+  const location = useLocation();
+
+  useEffect(() => {
+    switch (location.pathname) {
+      case '/':
+        handleButtonClick(1);
+        break;
+      case '/about':
+        handleButtonClick(2);
+        break;
+      case '/product':
+        handleButtonClick(3);
+        break;
+      case '/gallery':
+        handleButtonClick(4);
+        break;
+      case '/contact':
+        handleButtonClick(5);
+        break;
+      default:
+        handleButtonClick(null); // No button active
+    }
+  }, [location.pathname]);
 
   //   const [activeButton, setActiveButton] = useState(1);
 

@@ -1,5 +1,5 @@
 import { Box, Heading } from '@chakra-ui/react';
-import { HashRouter,BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import ContactUs from './pages/ContactUs';
 import Navbar from './components/Navbar';
@@ -12,19 +12,18 @@ import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   const [activeButton, setActiveButton] = useState(() => {
-    // Retrieve initial state from local storage if available
     const savedButton = localStorage.getItem('activeButton');
     return savedButton ? parseInt(savedButton, 10) : 1;
   });
 
   const handleButtonClick = (buttonId) => {
     setActiveButton(buttonId);
-    localStorage.setItem('activeButton', buttonId); // Save state to local storage
+    localStorage.setItem('activeButton', buttonId);
   };
 
   return (
     <>
-      <BrowserRouter basename="/muthumani-pickles/">
+      <HashRouter>
         <Navbar activeButton={activeButton} handleButtonClick={handleButtonClick} />
         <ScrollToTop />
         <Routes>
@@ -35,7 +34,7 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
         </Routes>
         <Footer setActiveButton={handleButtonClick} />
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }

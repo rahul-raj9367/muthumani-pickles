@@ -1,5 +1,5 @@
 import { Box, Heading } from '@chakra-ui/react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter,BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import ContactUs from './pages/ContactUs';
 import Navbar from './components/Navbar';
@@ -24,7 +24,7 @@ function App() {
 
   return (
     <>
-      <HashRouter>
+      <BrowserRouter basename="/muthumani-pickles/">
         <Navbar activeButton={activeButton} handleButtonClick={handleButtonClick} />
         <ScrollToTop />
         <Routes>
@@ -35,7 +35,7 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
         </Routes>
         <Footer setActiveButton={handleButtonClick} />
-      </HashRouter>
+      </BrowserRouter>
     </>
   );
 }

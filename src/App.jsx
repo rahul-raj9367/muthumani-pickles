@@ -1,10 +1,10 @@
-import { Box, Heading } from '@chakra-ui/react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { ChakraProvider } from '@chakra-ui/react';
+import React, { useState } from 'react';
 import Home from './pages/Home';
 import ContactUs from './pages/ContactUs';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import React, { useState } from 'react';
 import Product from './pages/Product';
 import About from './pages/About';
 import Gallery from './pages/Gallery';
@@ -23,7 +23,7 @@ function App() {
   };
 
   return (
-    <>
+    <ChakraProvider>
       <BrowserRouter basename="/">
         <Navbar activeButton={activeButton} handleButtonClick={handleButtonClick} />
         <ScrollToTop />
@@ -33,11 +33,11 @@ function App() {
           <Route path="/product" element={<Product />} />
           <Route path="/about" element={<About />} />
           <Route path="/gallery" element={<Gallery />} />
-          <Route path="*" element={<PageError setActiveButton={handleButtonClick}/>} />     
+          <Route path="*" element={<PageError setActiveButton={handleButtonClick}/>} />
         </Routes>
         <Footer setActiveButton={handleButtonClick} />
       </BrowserRouter>
-    </>
+    </ChakraProvider>
   );
 }
 

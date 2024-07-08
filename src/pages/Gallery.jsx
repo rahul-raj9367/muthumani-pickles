@@ -14,7 +14,7 @@ export default function Gallery() {
       <Center><Heading as='h2' size={['xl','2xl','2xl','2xl']}>Gallery</Heading></Center>
       <Grid pl={["5%","5%","2%"]} pr={["5%","5%","2%"]} data-aos="fade-up"
      data-aos-duration="3000" className='welcome' templateColumns={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(3, 1fr)','repeat(3, 1fr)','repeat(3, 1fr)']} gap={[6,6,6,10]}>
-          <GridItem  mt="50px" >
+          <GridItem  mt={["50px"]} >
               <Center>
               <Card boxShadow='2xl' borderRadius="20px"  border="3px solid" borderColor="#f2f2f2"  >
               <CardBody>
@@ -25,7 +25,7 @@ export default function Gallery() {
               </Center>
            
           </GridItem>
-          <GridItem mt="50px">
+          <GridItem mt={["25px","25px","50px"]}>
           <Center>
               <Card boxShadow='2xl' borderRadius="20px"  border="3px solid" borderColor="#f2f2f2" >
               <CardBody>
@@ -35,7 +35,7 @@ export default function Gallery() {
               </Card>
               </Center>
           </GridItem>
-          <GridItem mt="50px">
+          <GridItem mt={["25px","25px","50px"]}>
           <Center>
               <Card boxShadow='2xl' borderRadius="20px"  border="3px solid" borderColor="#f2f2f2" >
               <CardBody>
@@ -61,7 +61,7 @@ export default function Gallery() {
               </Center>
            
           </GridItem>
-          <GridItem mt="50px">
+          <GridItem mt={["25px","25px","50px"]}>
           <Center>
               <Card boxShadow='2xl' borderRadius="20px"  border="3px solid" borderColor="#f2f2f2" >
               <CardBody>
@@ -71,7 +71,7 @@ export default function Gallery() {
               </Card>
               </Center>
           </GridItem>
-          <GridItem mt="50px">
+          <GridItem mt={["25px","25px","50px"]}>
           <Center>
               <Card boxShadow='2xl' borderRadius="20px"  border="3px solid" borderColor="#f2f2f2" >
               <CardBody>
@@ -99,7 +99,7 @@ export default function Gallery() {
               </Center>
            
           </GridItem>
-          <GridItem mt="50px">
+          <GridItem mt={["25px","25px","50px"]}>
           <Center>
               <Card boxShadow='2xl' borderRadius="20px"  border="3px solid" borderColor="#f2f2f2" >
               <CardBody>
@@ -109,7 +109,7 @@ export default function Gallery() {
               </Card>
               </Center>
           </GridItem>
-          <GridItem mt="50px">
+          <GridItem mt={["25px","25px","50px"]}>
           <Center>
               <Card boxShadow='2xl' borderRadius="20px"  border="3px solid" borderColor="#f2f2f2" >
               <CardBody>
@@ -135,7 +135,7 @@ export default function Gallery() {
               </Center>
            
           </GridItem>
-          <GridItem mt="50px">
+          <GridItem mt={["25px","25px","50px"]}>
           <Center>
               <Card boxShadow='2xl' borderRadius="20px"  border="3px solid" borderColor="#f2f2f2" >
               <CardBody>
@@ -145,7 +145,7 @@ export default function Gallery() {
               </Card>
               </Center>
           </GridItem>
-          <GridItem mt="50px">
+          <GridItem mt={["25px","25px","50px"]}>
           <Center>
               <Card boxShadow='2xl' borderRadius="20px"  border="3px solid" borderColor="#f2f2f2" >
               <CardBody>

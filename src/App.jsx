@@ -1,5 +1,5 @@
 import { Box, Heading } from '@chakra-ui/react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter,BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import ContactUs from './pages/ContactUs';
 import Navbar from './components/Navbar';
@@ -9,6 +9,7 @@ import Product from './pages/Product';
 import About from './pages/About';
 import Gallery from './pages/Gallery';
 import ScrollToTop from './components/ScrollToTop';
+import PageError from './pages/PageError';
 
 function App() {
   const [activeButton, setActiveButton] = useState(() => {
@@ -23,7 +24,7 @@ function App() {
 
   return (
     <>
-      <HashRouter>
+      <BrowserRouter>
         <Navbar activeButton={activeButton} handleButtonClick={handleButtonClick} />
         <ScrollToTop />
         <Routes>
@@ -32,9 +33,10 @@ function App() {
           <Route path="/product" element={<Product />} />
           <Route path="/about" element={<About />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="*" element={<PageError setActiveButton={handleButtonClick}/>} />     
         </Routes>
         <Footer setActiveButton={handleButtonClick} />
-      </HashRouter>
+      </BrowserRouter>
     </>
   );
 }

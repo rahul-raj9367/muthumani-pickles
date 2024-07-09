@@ -187,7 +187,7 @@ export default function Footer({setActiveButton}) {
     <Box bg="black" pt="20px" pb={["40px","20px"]}>
           <Center>
 
-            <Text color="#ffff" fontSize={["18px","18px","18px","18px","22px"]} w={["80%",]} fontWeight="400" textAlign="center">© 2024, Muthumani Pickles. All Rights Reserved.  Website  developed by <span id="span"><a href="https://rahul-raj9367.github.io/portfolio/" target='_blank'>Rahul Raj</a></span> </Text>
+            <Text color="#ffff" fontSize={["18px","18px","18px","18px","22px"]} w={["80%",]} fontWeight="400" textAlign="center" fontFamily="Montserrat">© 2024, Muthumani Pickles. All Rights Reserved.  Website  developed by <span id="span"><a href="https://rahul-raj9367.github.io/portfolio/" target='_blank'>Rahul Raj</a></span> </Text>
 
              
              </Center>

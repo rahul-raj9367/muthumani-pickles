@@ -36,9 +36,9 @@ export default function About() {
      data-aos-easing="ease-in-sine" data-aos-delay="500">
                 <Box  w={['100%','100%']} pl={["20px","20px","40px","20px"]} pr={["20px","20px","40px","20px"]} >
                 <>
-                <Text mt={["0%","0%","0%","0%","0%","5%"]}  fontFamily="Ubuntu"
-                    fontWeight="400"
-                    fontSize={["17px","17px","18px","18px","22px"]}
+                <Text mt={["0%","0%","0%","0%","0%","5%"]}   fontFamily="Roboto Condensed"
+                    fontWeight="500"
+                    fontSize={["18px","18px","19px","19px","23px"]}
                     lineHeight={["40x","40x","38px","30px","40px"]}
                     textAlign="justify"
                     marginBottom="20px" width={["100%","100%","90%","80%"]}>
@@ -46,9 +46,9 @@ export default function About() {
                   </Text>
                 </>
                 <>
-                <Text   fontFamily="Ubuntu"
-                    fontWeight="400"
-                    fontSize={["17px","17px","18px","18px","22px"]}
+                <Text    fontFamily="Roboto Condensed"
+                    fontWeight="500"
+                    fontSize={["18px","18px","19px","19px","23px"]}
                     lineHeight={["40x","40x","38px","30px","40px"]}
                     textAlign="justify"
                     marginBottom="20px" width={["100%","100%","90%","80%"]}>
@@ -74,18 +74,18 @@ export default function About() {
      data-aos-easing="ease-in-sine" data-aos-delay="500" textAlign="end" >
               <Box  w={['100%']} pl={["20px","20px","40px","20px"]}  pr={["20px","20px","40px","20px"]} >
                 <Center ml="15%">
-                <Text mt={["0%","0%","0%","0%","0%","5%"]}  fontFamily="Ubuntu"
-                    fontWeight="400"
-                    fontSize={["17px","17px","18px","18px","22px"]}
+                <Text mt={["0%","0%","0%","0%","0%","5%"]}  fontFamily="Roboto Condensed"
+                    fontWeight="500"
+                    fontSize={["18px","18px","19px","19px","23px"]}
                     lineHeight={["40x","40x","38px","30px","40px"]}
                     textAlign="justify"
                     marginBottom="20px" width={["100%","100%","90%","90%"]}>
                   Our main focus is customer satisfaction, and we always prioritize feedback to improve the taste and quality of our products. This commitment to quality has earned us a reputation for excellence. As a Micro enterprise, we ensure that every product we offer meets your expectations through the highest standards in our manufacturing processes.</Text>
                 </Center>
                 <Center ml="15%">
-                <Text   fontFamily="Ubuntu"
-                    fontWeight="400"
-                    fontSize={["17px","17px","18px","18px","22px"]}
+                <Text   fontFamily="Roboto Condensed"
+                    fontWeight="500"
+                    fontSize={["18px","18px","19px","19px","23px"]}
                     lineHeight={["40x","40x","38px","30px","40px"]}
                     textAlign="justify"
                     marginBottom="20px" width={["100%","100%","90%","90%"]}>
@@ -126,9 +126,9 @@ export default function About() {
      data-aos-easing="ease-in-sine" data-aos-delay="500">
               <Box w={['100%']} pl={["20px","20px","40px","20px"]} pr={["20px","20px","40px","20px"]} >
                 <Center>
-                <Text mt={["10%","10%","5%"]}    fontFamily="Ubuntu"
-                    fontWeight="400"
-                    fontSize={["17px","17px","18px","18px","22px"]}
+                <Text mt={["10%","10%","5%"]}   fontFamily="Roboto Condensed"
+                    fontWeight="500"
+                    fontSize={["18px","18px","19px","19px","23px"]}
                     lineHeight={["40x","40x","38px","30px","43px"]}
                     textAlign="justify"
                     marginBottom="20px" width={["100%","100%","90%"]}>
@@ -136,9 +136,9 @@ export default function About() {
                                        </Text>
                 </Center>
                 <Center>
-                <Text   fontFamily="Ubuntu"
-                    fontWeight="400"
-                    fontSize={["17px","17px","18px","18px","22px"]}
+                <Text  fontFamily="Roboto Condensed"
+                    fontWeight="500"
+                    fontSize={["18px","18px","19px","19px","23px"]}
                     lineHeight={["40x","40x","38px","30px","43px"]}
                     textAlign="justify"
                     marginBottom="20px" width={["100%","100%","90%"]}>
@@ -170,18 +170,18 @@ export default function About() {
      data-aos-easing="ease-in-sine" data-aos-delay="500">
               <Box w={['100%']} pl={["20px","20px","40px","20px"]} pr={["20px","20px","40px","20px"]} >
                 <Center>
-                <Text mt={["10%","10%","5%"]}    fontFamily="Ubuntu"
-                    fontWeight="400"
-                    fontSize={["17px","17px","18px","18px","22px"]}
+                <Text mt={["10%","10%","5%"]}   fontFamily="Roboto Condensed"
+                    fontWeight="500"
+                    fontSize={["18px","18px","19px","19px","23px"]}
                     lineHeight={["40x","40x","38px","30px","43px"]}
                     textAlign="justify"
                     marginBottom="20px" width={["100%","100%","90%"]}>
                   Our main focus is customer satisfaction, and we always prioritize feedback to improve the taste and quality of our products. This commitment to quality has earned us a reputation for excellence. As a Micro enterprise, we ensure that every product we offer meets your expectations through the highest standards in our manufacturing processes.</Text>
                 </Center>
                 <Center>
-                <Text   fontFamily="Ubuntu"
-                    fontWeight="400"
-                    fontSize={["17px","17px","18px","18px","22px"]}
+                <Text   fontFamily="Roboto Condensed"
+                    fontWeight="500"
+                    fontSize={["18px","18px","19px","19px","23px"]}
                     lineHeight={["40x","40x","38px","30px","43px"]}
                     textAlign="justify"
                     marginBottom="20px" width={["100%","100%","90%"]}>
@@ -225,7 +225,7 @@ export default function About() {
                 <Center>
                 <Text data-aos="fade-right"
      data-aos-offset="200"
-     data-aos-easing="ease-in-sine" data-aos-delay="500"  mt={["10px"]} fontSize={["16px","16px","19px","17px","18px"]}  width={["80%","80%","50%","80%"]} textAlign="center">
+     data-aos-easing="ease-in-sine" data-aos-delay="500"  mt={["10px"]} fontFamily="Roboto Condensed" fontSize={["17px","17px","20px","18px","19px"]} width={["80%","80%","50%","80%","70%"]}  textAlign="center">
                 Our vision at Muthumani Pickles is to globally lead in high-quality, traditional Indian pickles, preserving and promoting the rich heritage of Indian cuisine. Through innovation and uncompromising quality, we aim to be a trusted name, delivering authentic flavors cherished for generations
                 </Text>
                 </Center>
@@ -250,7 +250,7 @@ export default function About() {
                 <Center>
                 <Text data-aos="fade-left"
      data-aos-offset="200"
-     data-aos-easing="ease-in-sine" data-aos-delay="500"  mt={["20px","20px","20px","10px"]} fontSize={["16px","16px","19px","17px","18px"]}  width={["80%","80%","50%","80%"]} textAlign="center">
+     data-aos-easing="ease-in-sine" data-aos-delay="500" fontFamily="Roboto Condensed"  mt={["20px","20px","20px","10px"]} fontSize={["17px","17px","20px","18px","19px"]}  width={["80%","80%","50%","80%","70%"]} textAlign="center">
                 Muthumani Pickles' mission is to craft exceptional pickles embodying traditional Indian flavors. We use the finest natural ingredients and sustainable practices, valuing customer feedback to continually enhance our products. Supporting local communities and exploring new flavors, we aim to enrich meals with the unique tastes of our pickles.
                 </Text>
                 </Center>

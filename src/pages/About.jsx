@@ -21,7 +21,7 @@ export default function About() {
 
         {/* About us */}
         <Box mt={["50px"]} >
-            <Center><Heading as='h2' size={['xl','2xl','2xl','2xl']}>About Us</Heading></Center>
+            <Center><Heading as='h2' size={['xl','2xl','2xl','2xl']} fontFamily="Merienda">About Us</Heading></Center>
 
             <Grid display={["none","none","none","flex"]} templateColumns={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(1, 1fr)','repeat(2, 1fr)']} gap={2} overflow="hidden" mt={["60px"]}>
               <GridItem  w='100%' h='100%' data-aos="fade-right"
@@ -209,7 +209,7 @@ export default function About() {
         <Grid templateColumns={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(1, 1fr)','repeat(2, 1fr)']} gap={2} overflow="hidden" mt={["50px"]}>
           <GridItem  w='100%' h='100%'>
             <Box>
-              <Center><Heading as='h2' size={['xl','2xl','2xl','2xl']}  data-aos="fade-up"
+              <Center><Heading as='h2' size={['xl','2xl','2xl','2xl']} fontFamily="Merienda"  data-aos="fade-up"
      >OUR VISION</Heading></Center>
               <Center><Image 
               data-aos="fade-up"
@@ -234,7 +234,7 @@ export default function About() {
           </GridItem>
           <GridItem  w='100%' h='100%'>
             <Box mt={["50px","50px","50px","0px"]}>
-              <Center><Heading as='h2' size={['xl','2xl','2xl','2xl']}  data-aos="fade-up">OUR MISSION</Heading></Center>
+              <Center><Heading as='h2' size={['xl','2xl','2xl','2xl']} fontFamily="Merienda"  data-aos="fade-up">OUR MISSION</Heading></Center>
                
               <Center> <Image 
                data-aos="fade-up"

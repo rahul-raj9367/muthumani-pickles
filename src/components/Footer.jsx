@@ -104,7 +104,7 @@ export default function Footer({setActiveButton}) {
               </Center> */}
             <Center>
             <Flex flexDirection={["column"]}>
-                    <Heading  size={['xl','xl','lg','xl','xl']} color="#FFFD00">Contact Us</Heading>
+                    <Heading  size={['xl','xl','lg','xl','xl']} color="#FFFD00" fontFamily="Merienda">Contact Us</Heading>
                   </Flex>
             </Center>
             <Center>    

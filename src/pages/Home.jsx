@@ -188,7 +188,7 @@ export default function Home({setActiveButton }) {
   data-aos-delay="500" 
 />
                   <Heading size={['md','md','lg','lg']} mt={["18px","20px"]} color="white" data-aos="fade-up"
-     data-aos-duration="3000">Quality</Heading>
+     data-aos-duration="3000" fontFamily="Merienda">Quality</Heading>
                   <Text mt={["10px","20px"]} width={["80%","80%","50%","80%"]} textAlign="center" color="white" data-aos="fade-up"
      data-aos-duration="3000" fontSize={["16px","16px","19px","17px","18px"]} >Creating the perfect pickle is an art. We select the finest vegetables, balance ingredients precisely, and use traditional methods to preserve quality and taste, delivering authentic and delicious pickles every time.</Text>
                 </Flex>
@@ -210,7 +210,7 @@ export default function Home({setActiveButton }) {
   data-aos-delay="500" 
 />
                   <Heading size={['md','md','lg','lg']} mt={["10px","20px"]} color="white" data-aos="fade-up"
-     data-aos-duration="3000">Tasty</Heading>
+     data-aos-duration="3000 " fontFamily="Merienda">Tasty</Heading>
                   <Text mt={["10px","20px"]}  width={["80%","80%","50%","80%"]} textAlign="center" data-aos="fade-up"
      data-aos-duration="3000"  color="white" fontSize={["16px","16px","19px","17px","18px"]} >Our pickles are crafted with 100% natural ingredients, ensuring no artificial additives or preservatives for a wholesome and healthy experience.</Text>
                 </Flex>
@@ -232,7 +232,7 @@ export default function Home({setActiveButton }) {
   data-aos-delay="500" 
 />
                   <Heading size={['md','md','lg','lg']} mt={["18px","20px"]} data-aos="fade-up"
-     data-aos-duration="3000" color="white">Service</Heading>
+     data-aos-duration="3000" color="white" fontFamily="Merienda">Service</Heading>
                   <Text mt={["1[]px","20px"]} width={["80%","80%","50%","80%"]} textAlign="center" data-aos="fade-up"
      data-aos-duration="3000" color="white" fontSize={["16px","16px","19px","17px","18px"]} >At Muthumani Pickles, we prioritize exceptional service alongside our high-quality products, earning consistent praise from our satisfied customers.</Text>
                 </Flex>

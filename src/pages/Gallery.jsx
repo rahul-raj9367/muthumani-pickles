@@ -11,7 +11,7 @@ export default function Gallery() {
   return (
     <Box className='NAV'>
       <Box mt={["50px"]}>
-      <Center><Heading as='h2' size={['xl','2xl','2xl','2xl']}>Gallery</Heading></Center>
+      <Center><Heading as='h2' size={['xl','2xl','2xl','2xl']} fontFamily="Merienda">Gallery</Heading></Center>
       <Grid pl={["5%","5%","2%"]} pr={["5%","5%","2%"]} data-aos="fade-up"
      data-aos-duration="3000" className='welcome' templateColumns={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(3, 1fr)','repeat(3, 1fr)','repeat(3, 1fr)']} gap={[6,6,6,10]}>
           <GridItem  mt={["50px"]} >

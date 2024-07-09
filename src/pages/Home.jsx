@@ -10,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style.css';
 import { GoRead } from "react-icons/go";
 
-
+import { Helmet } from 'react-helmet';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -31,9 +31,7 @@ import logo3 from '../assets/s33.svg'
 
 export default function Home({setActiveButton }) {
     
-  useEffect(() => {
-    document.title = 'MuthuMani Home Made Pickles and Turmeric Powder';
-  }, []);
+  
 
     //Loading 
     const [loading, setLoading] = useState(true);
@@ -82,7 +80,15 @@ export default function Home({setActiveButton }) {
     //   </>
     //   )}
     // </>
-    <Box >
+    <Box>
+       <Helmet>
+        <meta name="description" content="MuthuMani Home Made Pickles and Turmeric Powder offers traditional Indian pickles made with the finest natural ingredients. Explore our variety of flavors and add a spicy or tangy twist to your meals." />
+        <meta name="keywords" content="MuthuMani Pickles,Pickles, Turmeric Powder,MuthuMani Pickles Mukkudal,Tirunelveli Pickles,Tamil Nadu  Pickles,Indian Pickles, Home Made, Natural Ingredients" />
+        <meta name="author" content="MuthuMani Home Made Pickles" />
+        <link rel="canonical" href="https://www.muthumanipickles.com" />
+        <title>MuthuMani Home Made Pickles and Turmeric Powder</title>
+      </Helmet>
+            <Box >
       {/* Carousel */}
         <Box width={["100%"]}  className='Caro'>
         <Carousel interval={3000} controls={false} indicators={false} pause={false} >
@@ -321,7 +327,9 @@ export default function Home({setActiveButton }) {
               </Box>
         </Box>
         
+            </Box>
     </Box>
+    
     
   )
 }

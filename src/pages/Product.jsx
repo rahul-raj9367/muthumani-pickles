@@ -3,6 +3,7 @@ import React, { useEffect } from 'react'
 import '../style.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
+import { Helmet } from 'react-helmet';
 
 
 
@@ -13,11 +14,14 @@ export default function Product() {
     Aos.init()
   },[])
 
-  useEffect(() => {
-    document.title = 'Product - MuthuMani Home Made Pickles and Turmeric Powder';
-  }, []);
   return (
     <Box className='NAV'>
+      <Helmet>
+        <title>Product - MuthuMani Home Made Pickles and Turmeric Powder</title>
+        <meta name="description" content="Discover the wide range of MuthuMani Home Made Pickles and Turmeric Powder. Our products include Lemon Pickle, Citron Pickle, Kathambam Pickle, and Garlic Pickle, all made with traditional recipes and the finest ingredients." />
+        <meta name="keywords" content="MuthuMani Pickles, Turmeric Powder, Lemon Pickle, Citron Pickle, Kathambam Pickle, Garlic Pickle, Kasthuri Manjal Powder, Home Made Pickles, Traditional Indian Pickles, Mukkudal, Tirunelveli, Tamilnadu" />
+        <meta name="author" content="MuthuMani Home Made Pickles" />
+      </Helmet>
       {/* Product */}
       <Box mt={["50px"]}>
       <Center><Heading as='h2' size={['xl','2xl','2xl','2xl']} fontFamily="Merienda">Pickles</Heading></Center>

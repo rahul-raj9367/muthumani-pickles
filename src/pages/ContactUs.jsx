@@ -16,6 +16,7 @@ import logo2 from '../assets/call.svg'
 import logo3 from '../assets/mail.svg'
 
 import emailjs from '@emailjs/browser';
+import { Helmet } from 'react-helmet';
 
 export default function ContactUs() {
 
@@ -101,12 +102,15 @@ export default function ContactUs() {
     Aos.init()
   },[])
 
-
-  useEffect(() => {
-    document.title = 'ContactUs - MuthuMani Home Made Pickles and Turmeric Powder';
-  }, []);
   return (
     <Box className='NAV' >
+
+      <Helmet>
+          <title>Contact Us - MuthuMani Home Made Pickles and Turmeric Powder</title>
+          <meta name="description" content="Get in touch with MuthuMani Home Made Pickles and Turmeric Powder for feedback, suggestions, and inquiries about our products." />
+          <meta name="keywords" content="MuthuMani Pickles, Turmeric Powder, Contact Us, Feedback, Suggestions, Mukkudal, Tirunelveli, Tamilnadu" />
+          <meta name="author" content="MuthuMani Home Made Pickles" />
+      </Helmet>
       <Center><Heading pt={["0px"]}   as='h2' size={['xl','2xl','2xl','2xl']} fontFamily="Merienda">Contact Us</Heading></Center>
       {/* <Center><Heading  as='h2' mt="50px" width={["90%","90%","90%","70%"]} size={['lg','lg','lg','lg','lg']} color="#B31312" mb="4%" textAlign="center">We would love to hear from you - your feedback, suggestions, and anything you want to share.</Heading></Center> */}
 

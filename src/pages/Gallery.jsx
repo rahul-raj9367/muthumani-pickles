@@ -3,6 +3,7 @@ import React, { useEffect } from 'react'
 import '../style.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
+import { Helmet } from 'react-helmet';
 
 export default function Gallery() {
 
@@ -11,13 +12,15 @@ export default function Gallery() {
     Aos.init()
   },[])
 
-
   
-  useEffect(() => {
-    document.title = 'Gallery - MuthuMani Home Made Pickles and Turmeric Powder';
-  }, []);
   return (
     <Box className='NAV'>
+      <Helmet>
+        <title>Gallery - MuthuMani Home Made Pickles and Turmeric Powder</title>
+        <meta name="description" content="Discover the wide range of MuthuMani Home Made Pickles and Turmeric Powder. Our products include Lemon Pickle, Citron Pickle, Kathambam Pickle, and Garlic Pickle, all made with traditional recipes and the finest ingredients." />
+        <meta name="keywords" content="MuthuMani Pickles, Turmeric Powder, Lemon Pickle, Citron Pickle, Kathambam Pickle, Garlic Pickle, Kasthuri Manjal Powder, Home Made Pickles, Traditional Indian Pickles, Mukkudal, Tirunelveli, Tamilnadu" />
+        <meta name="author" content="MuthuMani Home Made Pickles" />
+      </Helmet>
       <Box mt={["50px"]}>
       <Center><Heading as='h2' size={['xl','2xl','2xl','2xl']} fontFamily="Merienda">Gallery</Heading></Center>
       <Grid pl={["5%","5%","2%"]} pr={["5%","5%","2%"]} data-aos="fade-up"
@@ -196,7 +199,7 @@ export default function Gallery() {
           <Center>
               <Card boxShadow='2xl' borderRadius="20px"  border="3px solid" borderColor="#f2f2f2" >
               <CardBody>
-              <Image src="images/kathh.jpg"   loading="lazy"  alt="Kathambam" borderRadius="20px" height="100%" width="100%"  transition="transform 0.3s"
+              <Image src="images/old.jpg"   loading="lazy"  alt="Kathambam" borderRadius="20px" height="100%" width="100%"  transition="transform 0.3s"
         _hover={{ transform: 'scale(1.1)' }}/>
                 </CardBody>
               </Card>

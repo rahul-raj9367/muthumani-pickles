@@ -5,6 +5,7 @@ import logo2 from '../assets/vis.svg'
 import '../style.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
+import { Helmet } from 'react-helmet';
 
 export default function About() {
 
@@ -12,13 +13,15 @@ export default function About() {
    useEffect(()=>{
     Aos.init()
   },[])
-  useEffect(() => {
-    document.title = 'About - MuthuMani Home Made Pickles and Turmeric Powder';
-  }, []);
 
   return (
     <Box className='NAV'>
-
+        <Helmet>
+         <title>About - MuthuMani Home Made Pickles and Turmeric Powder</title>
+         <meta name="description" content="Learn about MuthuMani Home Made Pickles, our rich history, and our dedication to bringing you the finest traditional Indian pickles and turmeric powder." />
+         <meta name="keywords" content="MuthuMani Pickles, Turmeric Powder, About , About MuthuMani Pickles, History MuthuMani Pickles, Mukkudal, Tirunelveli, Tamilnadu" />
+         <meta name="author" content="MuthuMani Home Made Pickles" />
+        </Helmet>
         {/* About us */}
         <Box mt={["50px"]} >
             <Center><Heading as='h2' size={['xl','2xl','2xl','2xl']} fontFamily="Merienda">About Us</Heading></Center>

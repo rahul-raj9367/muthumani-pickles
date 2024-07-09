@@ -120,9 +120,9 @@ export default function Home({setActiveButton }) {
                 <Box w={['100%']} pl={["20px","20px","40px","20px"]} pr={["20px","20px","40px","20px"]} >
                 <Center><Heading fontFamily="Merienda"  as='h2' size={['lg','lg','lg','lg','xl']} color="#B31312" mb="4%" textAlign="center">Welcome To Muthumani Pickles</Heading></Center>
                 <Center>
-                <Text   fontFamily="Merienda"
-                    fontWeight="400"
-                    fontSize={["17px","17px","18px","18px","22px"]}
+                <Text   fontFamily="Roboto Condensed"
+                    fontWeight="500"
+                    fontSize={["18px","18px","19px","19px","23px"]}
                     lineHeight={["40x","40x","38px","30px","43px"]}
                     textAlign="justify"
                     marginBottom="20px" width={["100%","100%","90%"]}>
@@ -130,8 +130,8 @@ export default function Home({setActiveButton }) {
                   </Text>
                 </Center>
                 <Center>
-                <Text   fontFamily="PT Sans Narrow"
-                    fontWeight="400"
+                <Text    fontFamily="Roboto Condensed"
+                    fontWeight="500"
                     fontSize={["18px","18px","19px","19px","23px"]}
                     lineHeight={["40x","40x","38px","30px","43px"]}
                     textAlign="justify"
@@ -141,7 +141,7 @@ export default function Home({setActiveButton }) {
                 </Center>
                   
 
-                  <Link to="/about"><Button bg='#B31312' _hover={{ bg: 'black', color:'#ffff' }} ml={["","","5%","5%"]} color='#ffffff' leftIcon={<GoRead size={20} />}  onClick={() => setActiveButton(2)}>Read More</Button></Link>
+                  <Link to="/about"><Button bg='#B31312' fontFamily="Merienda" _hover={{ bg: 'black', color:'#ffff' }} ml={["","","5%","5%"]} color='#ffffff' leftIcon={<GoRead size={20} />}  onClick={() => setActiveButton(2)}>Read More</Button></Link>
                 </Box>
               </GridItem>
             </Grid>
@@ -190,7 +190,7 @@ export default function Home({setActiveButton }) {
                   <Heading size={['md','md','lg','lg']} mt={["18px","20px"]} color="white" data-aos="fade-up"
      data-aos-duration="3000 " fontFamily="Merienda">Quality</Heading>
                   <Text mt={["10px","20px"]} width={["80%","80%","50%","80%"]} textAlign="center" color="white" data-aos="fade-up"
-     data-aos-duration="3000" fontSize={["16px","16px","19px","17px","18px"]} >Creating the perfect pickle is an art. We select the finest vegetables, balance ingredients precisely, and use traditional methods to preserve quality and taste, delivering authentic and delicious pickles every time.</Text>
+     data-aos-duration="3000" fontSize={["17px","17px","20px","18px","19px"]}  fontFamily="Roboto Condensed">Creating the perfect pickle is an art. We select the finest vegetables, balance ingredients precisely, and use traditional methods to preserve quality and taste, delivering authentic and delicious pickles every time.</Text>
                 </Flex>
               </Center>
           </GridItem>
@@ -212,7 +212,7 @@ export default function Home({setActiveButton }) {
                   <Heading size={['md','md','lg','lg']} mt={["10px","20px"]} color="white" data-aos="fade-up"
      data-aos-duration="3000 " fontFamily="Merienda">Tasty</Heading>
                   <Text mt={["10px","20px"]}  width={["80%","80%","50%","80%"]} textAlign="center" data-aos="fade-up"
-     data-aos-duration="3000"  color="white" fontSize={["16px","16px","19px","17px","18px"]} >Our pickles are crafted with 100% natural ingredients, ensuring no artificial additives or preservatives for a wholesome and healthy experience.</Text>
+     data-aos-duration="3000"  color="white" fontSize={["17px","17px","20px","18px","19px"]}  fontFamily="Roboto Condensed">Our pickles are crafted with 100% natural ingredients, ensuring no artificial additives or preservatives for a wholesome and healthy experience.</Text>
                 </Flex>
               </Center>
           </GridItem>
@@ -234,7 +234,7 @@ export default function Home({setActiveButton }) {
                   <Heading size={['md','md','lg','lg']} mt={["18px","20px"]} data-aos="fade-up"
      data-aos-duration="3000 " color="white" fontFamily="Merienda">Service</Heading>
                   <Text mt={["1[]px","20px"]} width={["80%","80%","50%","80%"]} textAlign="center" data-aos="fade-up"
-     data-aos-duration="3000" color="white" fontSize={["16px","16px","19px","17px","18px"]} >At Muthumani Pickles, we prioritize exceptional service alongside our high-quality products, earning consistent praise from our satisfied customers.</Text>
+     data-aos-duration="3000" color="white" fontSize={["17px","17px","20px","18px","19px"]}   fontFamily="Roboto Condensed" >At Muthumani Pickles, we prioritize exceptional service alongside our high-quality products, earning consistent praise from our satisfied customers.</Text>
                 </Flex>
               </Center>
           </GridItem>

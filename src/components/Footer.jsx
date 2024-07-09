@@ -117,8 +117,8 @@ export default function Footer({setActiveButton}) {
                  
                       <Flex  mt="20px" gap={2}>
                         <Icon as={LuPhoneCall}  boxSize={[6,6,5,6]}   color="#FFFD00"/> 
-                        <a href="tel:+919442256790" cursor="pointer" ><Text color="#ffffff"   fontSize={["16px","16px","15px","16px"]}>+91 9442256790 </Text></a>
-                        <a href="tel:+9025957223" cursor="pointer" ><Text color="#ffffff"  fontSize={["16px","16px","15px","16px"]} >+91 9025957223 </Text></a>
+                        <a href="tel:+919442256790" cursor="pointer" ><Text color="#ffffff" fontFamily="Montserrat"   fontSize={["16px","16px","15px","16px"]}>+91 9442256790 </Text></a>
+                        <a href="tel:+9025957223" cursor="pointer" ><Text color="#ffffff"  fontFamily="Montserrat"  fontSize={["16px","16px","15px","16px"]} >+91 9025957223 </Text></a>
 
                       </Flex>
                     
@@ -127,7 +127,7 @@ export default function Footer({setActiveButton}) {
                       <a href="mailto: muthumanipickles@gmail.com" target="_blank">
                         <Flex gap={2} mt={["0px","0px","0px","0px","20px"]} ml={["5px","30px"]}>
                           <Icon as={SiGmail} boxSize={[6,6,5,6]}  color="#FFFD00"/> 
-                          <Text color="#fbfbfb" fontSize={["16px","16px","15px","16px"]} >muthumanipickles@gmail.com</Text>
+                          <Text color="#fbfbfb" fontSize={["16px","16px","15px","16px"]} fontFamily="Montserrat">muthumanipickles@gmail.com</Text>
                         </Flex>
                       </a>
                 </Flex>
@@ -140,19 +140,19 @@ export default function Footer({setActiveButton}) {
 
             <a href="https://wa.me/9367747439"  target="_blank"><Flex gap={2}>
             <Icon as={BsWhatsapp}  boxSize={[6,6,5,6]}   color="#FFFD00"/> 
-            <Text color="#fbfbfb"  fontSize={["16px","16px","15px","16px"]}>Whatsapp</Text>
+            <Text color="#fbfbfb"  fontSize={["16px","16px","15px","16px"]} fontFamily="Montserrat">Whatsapp</Text>
           </Flex></a>
 
 
               <a href="https://www.instagram.com/muthumani_pickles/" target='_blank'><Flex gap={2}>
                 <Icon as={GrInstagram }  boxSize={[6,6,5,6]}   color="#FFFD00"/> 
-                <Text color="#fbfbfb" fontSize={["16px","16px","15px","16px"]}>Instagram</Text>
+                <Text color="#fbfbfb" fontSize={["16px","16px","15px","16px"]} fontFamily="Montserrat">Instagram</Text>
               </Flex></a>
               
 
               <a href="https://www.youtube.com/@muthumanipickles" target='_blank'><Flex  gap={2}>
                 <Icon as={FaYoutube}  boxSize={[6,6,5,6]}  color="#FFFD00"/> 
-                <Text color="#fbfbfb" fontSize={["16px","16px","15px","16px"]} >Youtube</Text>
+                <Text color="#fbfbfb" fontSize={["16px","16px","15px","16px"]} fontFamily="Montserrat">Youtube</Text>
               </Flex></a>
 
 

@@ -118,9 +118,9 @@ export default function Home({setActiveButton }) {
      data-aos-offset="300"
      data-aos-easing="ease-in-sine" data-aos-delay="500">
                 <Box w={['100%']} pl={["20px","20px","40px","20px"]} pr={["20px","20px","40px","20px"]} >
-                <Center><Heading  as='h2' size={['lg','lg','lg','lg','xl']} color="#B31312" mb="4%" textAlign="center">Welcome To Muthumani Pickles</Heading></Center>
+                <Center><Heading fontFamily="Merienda"  as='h2' size={['lg','lg','lg','lg','xl']} color="#B31312" mb="4%" textAlign="center">Welcome To Muthumani Pickles</Heading></Center>
                 <Center>
-                <Text   fontFamily="Ubuntu"
+                <Text   fontFamily="Merienda"
                     fontWeight="400"
                     fontSize={["17px","17px","18px","18px","22px"]}
                     lineHeight={["40x","40x","38px","30px","43px"]}
@@ -150,7 +150,7 @@ export default function Home({setActiveButton }) {
 
         {/* Our Products */}
         <Box mb="50px" className='Caro'>
-        <Center><Heading pt={["","","20px","50px"]}  pb={["25px","50px"]} as='h2' size={['xl','2xl','2xl','2xl']}>Our Products</Heading></Center>
+        <Center><Heading pt={["","","20px","50px"]}  pb={["25px","50px"]} as='h2' size={['xl','2xl','2xl','2xl']} fontFamily="Merienda">Our Products</Heading></Center>
         <Grid templateColumns={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(2, 1fr)','repeat(2, 1fr)']} gap={6} overflow="hidden">
         <Link to="/product" onClick={() => setActiveButton(3)}><GridItem w='100%' h='100%' data-aos="fade-up"
      data-aos-duration="3000">
@@ -169,7 +169,7 @@ export default function Home({setActiveButton }) {
 
             {/* Our Services */}
         <Box bg="#B31312" mt="100px" >
-        <Center><Heading mt={["40px","80px"]}  pb={["50px"]} as='h2' size={['xl','2xl','2xl','2xl']} color='#ffffff'>Our Services</Heading></Center>
+        <Center><Heading mt={["40px","80px"]}  pb={["50px"]} as='h2' size={['xl','2xl','2xl','2xl']} color='#ffffff' fontFamily="Merienda">Our Services</Heading></Center>
         <Box className='Caro' pb="100px">
         <Grid templateColumns={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(1, 1fr)','repeat(3, 1fr)']} gap={[10,2,10]} mt={["20px","40px"]} overflow="hidden">
           <GridItem w='100%' h='100%' >
@@ -246,7 +246,7 @@ export default function Home({setActiveButton }) {
 
         {/* What Our Clients Say */}
         <Box mb="50px" className='Caro'>
-        <Center><Heading pt={["50px"]}  pb={["50px"]} as='h2' size={['xl','2xl','2xl','2xl']}>What Our Clients Say</Heading></Center>
+        <Center><Heading pt={["50px"]}  pb={["50px"]} as='h2' size={['xl','2xl','2xl','2xl']} fontFamily="Merienda">What Our Clients Say</Heading></Center>
               <Box data-aos="zoom-in-down" overflow="hidden" data-aos-delay="300">
               <Swiper
                   effect={'cards'}

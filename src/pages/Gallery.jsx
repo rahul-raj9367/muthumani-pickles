@@ -5,6 +5,14 @@ import Aos from 'aos';
 import 'aos/dist/aos.css'
 
 export default function Gallery() {
+
+   //AOS
+   useEffect(()=>{
+    Aos.init()
+  },[])
+
+
+  
   useEffect(() => {
     document.title = 'Gallery - MuthuMani Home Made Pickles and Turmeric Powder';
   }, []);

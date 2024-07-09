@@ -96,7 +96,10 @@ export default function ContactUs() {
     });
   }
 
-  
+   //AOS
+   useEffect(()=>{
+    Aos.init()
+  },[])
 
 
   useEffect(() => {

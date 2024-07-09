@@ -117,7 +117,7 @@ export default function Footer({setActiveButton}) {
                  
                       <Flex  mt="20px" gap={2}>
                         <Icon as={LuPhoneCall}  boxSize={[6,6,5,6]}   color="#FFFD00"/> 
-                        <a href="tel:+919442256790" cursor="pointer" ><Text color="#ffffff"  fontSize={["16px","16px","15px","16px"]}>+91 9442256790 </Text></a>
+                        <a href="tel:+919442256790" cursor="pointer" ><Text color="#ffffff"   fontSize={["16px","16px","15px","16px"]}>+91 9442256790 </Text></a>
                         <a href="tel:+9025957223" cursor="pointer" ><Text color="#ffffff"  fontSize={["16px","16px","15px","16px"]} >+91 9025957223 </Text></a>
 
                       </Flex>

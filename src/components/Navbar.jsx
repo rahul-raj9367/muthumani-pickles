@@ -83,6 +83,7 @@ export default function Navbar({ activeButton, handleButtonClick }) {
         <NavLink>
           <Link to="/">
             <Button
+             fontFamily="Montserrat"
                size={['sm', 'sm', 'sm', 'md', 'md']}
                fontSize={["24px", "24px", "18px", "20px", "20px"]}
               as='b'
@@ -91,7 +92,6 @@ export default function Navbar({ activeButton, handleButtonClick }) {
               color={activeButton === 1 ? '#ffffff' : 'black'}
               _hover={{ bg: activeButton === 1 ? '#B31312' : 'black', color: activeButton === 1 ? '#ffffff' : '#ffff' }}
 
-              
             >
               HOME
             </Button>
@@ -101,6 +101,7 @@ export default function Navbar({ activeButton, handleButtonClick }) {
         <ListItem  mr={["30px", "30px", "0px", "10px"]} ml={["0px","10px"]} mt="3px">
           <Link to="/about">
             <Button
+            fontFamily="Montserrat"
               size={['sm', 'sm', 'sm', 'md', 'md']}
               fontSize={["24px", "24px", "18px", "20px", "20px"]}
               as='b'
@@ -117,6 +118,7 @@ export default function Navbar({ activeButton, handleButtonClick }) {
         <ListItem  mr={["30px", "30px", "0px", "10px"]} ml={["0px","10px"]} mt="3px">
           <Link to="/product">
             <Button
+            fontFamily="Montserrat"
              size={['sm', 'sm', 'sm', 'md', 'md']}
              fontSize={["24px", "24px", "18px", "20px", "20px"]}
               as='b'
@@ -132,6 +134,7 @@ export default function Navbar({ activeButton, handleButtonClick }) {
         <ListItem  mr={["30px", "30px", "0px", "10px"]} ml={["0px","10px"]} mt="3px">
           <Link to="/gallery">
             <Button
+            fontFamily="Montserrat"
               size={['sm', 'sm', 'sm', 'md', 'md']}
               fontSize={["24px", "24px", "18px", "20px", "20px"]}
               as='b'
@@ -147,6 +150,7 @@ export default function Navbar({ activeButton, handleButtonClick }) {
         <ListItem  mr={["30px", "30px", "0px", "10px"]} ml={["0px","10px"]} mt="3px">
           <Link to="/contact">
             <Button
+            fontFamily="Montserrat"
                size={['sm', 'sm', 'sm', 'md', 'md']}
                fontSize={["24px", "24px", "18px", "20px", "20px"]}
               as='b'
@@ -230,6 +234,7 @@ export default function Navbar({ activeButton, handleButtonClick }) {
                       onClick={()=>ChangeDisplayy('none')}></IconButton>
                   </Flex>
                       <Flex 
+                      mt="20px"
                       flexDir="column"
                       justifyContent="center"
                       pl="0px"

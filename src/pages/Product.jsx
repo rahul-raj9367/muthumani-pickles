@@ -7,6 +7,12 @@ import 'aos/dist/aos.css'
 
 
 export default function Product() {
+
+   //AOS
+   useEffect(()=>{
+    Aos.init()
+  },[])
+
   useEffect(() => {
     document.title = 'Product - MuthuMani Home Made Pickles and Turmeric Powder';
   }, []);
@@ -25,9 +31,9 @@ export default function Product() {
         _hover={{ transform: 'scale(1.1)' }}/>
                 </CardBody>
                 <Center>
-                <CardFooter >
+                <CardFooter pt="0px">
                   <Center>
-                      <Heading fontSize="lg" fontFamily="Montserrat">Lemon Pickle   ₹7</Heading>
+                      <Heading fontSize="lg" fontFamily="Montserrat">Lemon Pickle  <span id="spann">₹7</span> </Heading>
                   </Center>
                 </CardFooter>
                 </Center>
@@ -43,9 +49,9 @@ export default function Product() {
         _hover={{ transform: 'scale(1.1)' }}/>
                 </CardBody>
                 <Center>
-                <CardFooter >
+                <CardFooter pt="0px">
                   <Center>
-                      <Heading fontSize="lg" fontFamily="Montserrat">Citron Pickle   ₹7</Heading>
+                      <Heading fontSize="lg" fontFamily="Montserrat">Citron Pickle  <span id="spann">₹7</span> </Heading>
                   </Center>
                 </CardFooter>
                 </Center>
@@ -60,9 +66,9 @@ export default function Product() {
         _hover={{ transform: 'scale(1.1)' }}/>
                 </CardBody>
                 <Center>
-                <CardFooter >
+                <CardFooter pt="0px">
                   <Center>
-                      <Heading fontSize="lg" fontFamily="Montserrat">Kathambam Pickle   ₹7</Heading>
+                      <Heading fontSize="lg" fontFamily="Montserrat">Kathambam Pickle   <span id="spann">₹7</span> </Heading>
                   </Center>
                 </CardFooter>
                 </Center>
@@ -77,9 +83,9 @@ export default function Product() {
         _hover={{ transform: 'scale(1.1)' }}/>
                 </CardBody>
                 <Center>
-                <CardFooter>
+                <CardFooter pt="0px">
                   <Center>
-                      <Heading fontSize="lg" fontFamily="Montserrat">Garlic Pickle   ₹7</Heading>
+                      <Heading fontSize="lg" fontFamily="Montserrat">Garlic Pickle   <span id="spann">₹7</span> </Heading>
                   </Center>
                 </CardFooter>
                 </Center>
@@ -97,9 +103,9 @@ export default function Product() {
         _hover={{ transform: 'scale(1.1)' }}/>
                 </CardBody>
                 <Center>
-                <CardFooter >
+                <CardFooter pt="0px">
                   <Center>
-                      <Heading fontSize="lg" fontFamily="Montserrat">Lemon Pickle   ₹50</Heading>
+                      <Heading fontSize="lg" fontFamily="Montserrat">Lemon Pickle    <span id="spann">₹50</span></Heading>
                   </Center>
                 </CardFooter>
                 </Center>
@@ -115,9 +121,9 @@ export default function Product() {
         _hover={{ transform: 'scale(1.1)' }}/>
                 </CardBody>
                 <Center>
-                <CardFooter >
+                <CardFooter pt="0px">
                   <Center>
-                      <Heading fontSize="lg" fontFamily="Montserrat">Citron Pickle   ₹50</Heading>
+                      <Heading fontSize="lg" fontFamily="Montserrat">Citron Pickle   <span id="spann">₹50</span></Heading>
                   </Center>
                 </CardFooter>
                 </Center>
@@ -132,9 +138,9 @@ export default function Product() {
         _hover={{ transform: 'scale(1.1)' }}/>
                 </CardBody>
                 <Center>
-                <CardFooter >
+                <CardFooter pt="0px">
                   <Center>
-                      <Heading fontSize="lg" fontFamily="Montserrat">Kathambam Pickle   ₹50</Heading>
+                      <Heading fontSize="lg" fontFamily="Montserrat">Kathambam Pickle  <span id="spann">₹50</span></Heading>
                   </Center>
                 </CardFooter>
                 </Center>
@@ -149,9 +155,9 @@ export default function Product() {
         _hover={{ transform: 'scale(1.1)' }}/>
                 </CardBody>
                 <Center>
-                <CardFooter>
+                <CardFooter pt="0px">
                   <Center>
-                      <Heading fontSize="lg" fontFamily="Montserrat">Garlic Pickle   ₹50</Heading>
+                      <Heading fontSize="lg" fontFamily="Montserrat">Garlic Pickle   <span id="spann">₹50</span></Heading>
                   </Center>
                 </CardFooter>
                 </Center>
@@ -170,9 +176,9 @@ export default function Product() {
         _hover={{ transform: 'scale(1.1)' }}/>
                 </CardBody>
                 <Center>
-                <CardFooter >
+                <CardFooter pt="0px">
                   <Center>
-                      <Heading fontSize="lg" fontFamily="Montserrat">Kasthuri Manjal Powder   ₹20</Heading>
+                      <Heading fontSize="lg" fontFamily="Montserrat">Kasthuri Manjal Powder   <span id="spannn">₹20</span></Heading>
                   </Center>
                 </CardFooter>
                 </Center>

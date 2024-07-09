@@ -246,8 +246,8 @@ export default function Home({setActiveButton }) {
 
         {/* What Our Clients Say */}
         <Box mb="50px" className='Caro'>
-        <Center><Heading pt={["50px"]}  pb={["50px"]} as='h2' size={['xl','2xl','2xl','2xl']} fontFamily="Merienda">What Our Clients Say</Heading></Center>
-              <Box data-aos="zoom-in-down" overflow="hidden" data-aos-delay="300">
+        <Center><Heading pt={["60px"]}  pb={["50px"]} as='h2' size={['xl','2xl','2xl','2xl']} fontFamily="Merienda">What Our Clients Say</Heading></Center>
+              <Box data-aos="zoom-in-down"  mt="40px" overflow="hidden" data-aos-delay="300">
               <Swiper
                   effect={'cards'}
                   grabCursor={true}
@@ -260,13 +260,13 @@ export default function Home({setActiveButton }) {
                       <Heading  
                       fontWeight="400"
                      fontSize={["20px","24px"]}
-                    lineHeight={["30px","45px"]}
+                    lineHeight={["30px","35px","35px","45px"]}
                     textAlign="justify"
-                    width="80%" >
+                    width="80%" fontFamily="Merienda">
                           " Absolutely love the flavors! Authentic and delicious. Highly recommend "
                       </Heading>
                     </Center>
-                    <Text textAlign="right"  pt={["10px","10px","20px","50px"]} pb={["0px","0px","0px","0px","0px","40px"]}pr="10%" >-Vel Murugran</Text>
+                    <Text fontFamily="Merienda" textAlign="right"  pt={["10px","10px","20px","50px"]} pb={["0px","0px","0px","0px","0px","40px"]}pr="10%" >-Vel Murugran</Text>
 
                   </SwiperSlide>
 
@@ -275,13 +275,13 @@ export default function Home({setActiveButton }) {
                       <Heading  
                       fontWeight="400"
                     fontSize={["20px","24px"]}
-                    lineHeight={["30px","45px"]}
+                    lineHeight={["30px","35px","35px","45px"]}
                     textAlign="justify"
-                    width="80%" >
+                    width="80%" fontFamily="Merienda">
                         " Absolutely love the Kasturi manjal powder! Its authentic richness enhances every skincare routine. Highly recommend!"
                       </Heading>
                     </Center>
-                    <Text textAlign="right" pt={["10px","10px","20px","50px"]}  pb={["0px","0px","0px","0px","0px","40px"]}  pr="10%" >-Priya</Text>
+                    <Text fontFamily="Merienda" textAlign="right" pt={["10px","10px","20px","50px"]}  pb={["0px","0px","0px","0px","0px","40px"]}  pr="10%" >-Priya</Text>
 
                   </SwiperSlide>
 
@@ -291,13 +291,13 @@ export default function Home({setActiveButton }) {
                       <Heading  
                       fontWeight="400"
                       fontSize={["20px","24px"]}
-                    lineHeight={["30px","45px"]}
+                      lineHeight={["30px","35px","35px","45px"]}
                     textAlign="justify"
-                    width="80%"  >
+                    width="80%"  fontFamily="Merienda">
                           " Great quality pickles with natural ingredients. Reminds me of homemade pickles "
                       </Heading>
                     </Center>
-                    <Text textAlign="right" pt={["10px","10px","20px","50px"]}  pb={["0px","0px","0px","0px","0px","40px"]} pr="10%" >-Vasanth </Text>
+                    <Text fontFamily="Merienda" textAlign="right" pt={["10px","10px","20px","50px"]}  pb={["0px","0px","0px","0px","0px","40px"]} pr="10%" >-Vasanth </Text>
 
                   </SwiperSlide>
 
@@ -308,11 +308,11 @@ export default function Home({setActiveButton }) {
                     fontSize={["20px","24px"]}
                     lineHeight={["30px","45px"]}
                     textAlign="justify"
-                    width="80%" >
+                    width="80%" fontFamily="Merienda">
                           " Excellent taste and freshness. The packaging is also very convenient. Will definitely buy again "
                       </Heading>
                     </Center>
-                    <Text textAlign="right" pt={["10px","10px","20px","50px"]}  pb={["0px","0px","0px","0px","0px","40px"]}  pr="10%" >-Athinesh Lal </Text>
+                    <Text fontFamily="Merienda" textAlign="right" pt={["10px","10px","20px","50px"]}  pb={["0px","0px","0px","0px","0px","40px"]}  pr="10%" >-Athinesh Lal </Text>
 
                   </SwiperSlide>
 

@@ -114,7 +114,7 @@ export default function Home({setActiveButton }) {
                 
               </GridItem>
 
-              <GridItem w='100%' h='100%'  mt={["","","","","0px","5%"]}   data-aos="fade-left"
+              <GridItem w='100%' h='100%'  mt={["","","","","0px","0%"]}   data-aos="fade-left"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine" data-aos-delay="500">
                 <Box w={['100%']} pl={["20px","20px","40px","20px"]} pr={["20px","20px","40px","20px"]} >
@@ -130,9 +130,9 @@ export default function Home({setActiveButton }) {
                   </Text>
                 </Center>
                 <Center>
-                <Text   fontFamily="Ubuntu"
+                <Text   fontFamily="PT Sans Narrow"
                     fontWeight="400"
-                    fontSize={["17px","17px","18px","18px","22px"]}
+                    fontSize={["18px","18px","19px","19px","23px"]}
                     lineHeight={["40x","40x","38px","30px","43px"]}
                     textAlign="justify"
                     marginBottom="20px" width={["100%","100%","90%"]}>
@@ -188,7 +188,7 @@ export default function Home({setActiveButton }) {
   data-aos-delay="500" 
 />
                   <Heading size={['md','md','lg','lg']} mt={["18px","20px"]} color="white" data-aos="fade-up"
-     data-aos-duration="3000" fontFamily="Merienda">Quality</Heading>
+     data-aos-duration="3000 " fontFamily="Merienda">Quality</Heading>
                   <Text mt={["10px","20px"]} width={["80%","80%","50%","80%"]} textAlign="center" color="white" data-aos="fade-up"
      data-aos-duration="3000" fontSize={["16px","16px","19px","17px","18px"]} >Creating the perfect pickle is an art. We select the finest vegetables, balance ingredients precisely, and use traditional methods to preserve quality and taste, delivering authentic and delicious pickles every time.</Text>
                 </Flex>
@@ -232,7 +232,7 @@ export default function Home({setActiveButton }) {
   data-aos-delay="500" 
 />
                   <Heading size={['md','md','lg','lg']} mt={["18px","20px"]} data-aos="fade-up"
-     data-aos-duration="3000" color="white" fontFamily="Merienda">Service</Heading>
+     data-aos-duration="3000 " color="white" fontFamily="Merienda">Service</Heading>
                   <Text mt={["1[]px","20px"]} width={["80%","80%","50%","80%"]} textAlign="center" data-aos="fade-up"
      data-aos-duration="3000" color="white" fontSize={["16px","16px","19px","17px","18px"]} >At Muthumani Pickles, we prioritize exceptional service alongside our high-quality products, earning consistent praise from our satisfied customers.</Text>
                 </Flex>

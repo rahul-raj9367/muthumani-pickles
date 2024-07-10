@@ -182,7 +182,7 @@ export default function Product() {
                 <Center>
                 <CardFooter pt="5px">
                   <Center>
-                      <Heading fontSize="lg" fontFamily="Montserrat">Kasthuri Manjal Powder   <span id="spannn">₹20</span></Heading>
+                      <Heading fontSize="lg" textAlign="center" fontFamily="Montserrat">Kasthuri Manjal Powder   <span id="spannn">₹20</span></Heading>
                   </Center>
                 </CardFooter>
                 </Center>

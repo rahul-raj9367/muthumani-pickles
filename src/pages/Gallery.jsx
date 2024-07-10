@@ -199,7 +199,7 @@ export default function Gallery() {
           <Center>
               <Card boxShadow='2xl' borderRadius="20px"  border="3px solid" borderColor="#f2f2f2" >
               <CardBody>
-              <Image src="images/old.jpg"   loading="lazy"  alt="Kathambam" borderRadius="20px" height="100%" width="100%"  transition="transform 0.3s"
+              <Image src="images/a.jpg"   loading="lazy"  alt="Kathambam" borderRadius="20px" height="100%" width="100%"  transition="transform 0.3s"
         _hover={{ transform: 'scale(1.1)' }}/>
                 </CardBody>
               </Card>

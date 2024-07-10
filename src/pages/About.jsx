@@ -42,7 +42,7 @@ export default function About() {
                 <Text mt={["0%","0%","0%","0%","0%","5%"]}   fontFamily="Roboto Condensed"
                     fontWeight="500"
                     fontSize={["18px","18px","19px","19px","23px"]}
-                    lineHeight={["40x","40x","38px","30px","40px"]}
+                    lineHeight={["40x","40x","35px","30px","40px"]}
                     textAlign="justify"
                     marginBottom="20px" width={["100%","100%","90%","80%"]}>
                       At Muthumani Pickles, we bring you the rich and authentic flavors of traditional Indian pickles, crafted with care and passion. Founded by <span id="packi">Packia Selvan</span> and <span id="packi">Muthumani</span> on May 28, 2019, our company is dedicated to preserving the age-old art of pickle making, using only the finest natural ingredients and time-honored techniques.
@@ -52,7 +52,7 @@ export default function About() {
                 <Text    fontFamily="Roboto Condensed"
                     fontWeight="500"
                     fontSize={["18px","18px","19px","19px","23px"]}
-                    lineHeight={["40x","40x","38px","30px","40px"]}
+                    lineHeight={["40x","40x","35px","30px","40px"]}
                     textAlign="justify"
                     marginBottom="20px" width={["100%","100%","90%","80%"]}>
                       Join us in savoring the delightful and diverse flavors of Muthumani Pickles. Whether you're looking to add a spicy kick to your meals or a tangy twist to your snacks, our pickles are the perfect choice to elevate your dining experience. Welcome to a world of tradition and taste with Muthumani Pickles!
@@ -80,7 +80,7 @@ export default function About() {
                 <Text mt={["0%","0%","0%","0%","0%","5%"]}  fontFamily="Roboto Condensed"
                     fontWeight="500"
                     fontSize={["18px","18px","19px","19px","23px"]}
-                    lineHeight={["40x","40x","38px","30px","40px"]}
+                    lineHeight={["40x","40x","35px","30px","40px"]}
                     textAlign="justify"
                     marginBottom="20px" width={["100%","100%","90%","90%"]}>
                   Our main focus is customer satisfaction, and we always prioritize feedback to improve the taste and quality of our products. This commitment to quality has earned us a reputation for excellence. As a Micro enterprise, we ensure that every product we offer meets your expectations through the highest standards in our manufacturing processes.</Text>
@@ -89,7 +89,7 @@ export default function About() {
                 <Text   fontFamily="Roboto Condensed"
                     fontWeight="500"
                     fontSize={["18px","18px","19px","19px","23px"]}
-                    lineHeight={["40x","40x","38px","30px","40px"]}
+                    lineHeight={["40x","40x","35px","30px","40px"]}
                     textAlign="justify"
                     marginBottom="20px" width={["100%","100%","90%","90%"]}>
                       Located in Mukkudal, Tamil Nadu, Muthumani Pickles is a family-run business that prides itself on delivering quality and taste in every jar. Our pickles are more than just condiments; they are a celebration of India's culinary heritage. Each pickle is a blend of seasonal vegetables, carefully selected and preserved to enhance their natural flavors.
@@ -132,7 +132,7 @@ export default function About() {
                 <Text mt={["10%","10%","5%"]}   fontFamily="Roboto Condensed"
                     fontWeight="500"
                     fontSize={["18px","18px","19px","19px","23px"]}
-                    lineHeight={["40x","40x","38px","30px","43px"]}
+                    lineHeight={["40x","40x","30px","30px","43px"]}
                     textAlign="justify"
                     marginBottom="20px" width={["100%","100%","90%"]}>
                                        At Muthumani Pickles, we bring you the rich and authentic flavors of traditional Indian pickles, crafted with care and passion. Founded by <span id="packi">Packia Selvan</span> and <span id="packi">Muthumani</span> on May 28, 2019, our company is dedicated to preserving the age-old art of pickle making, using only the finest natural ingredients and time-honored techniques.
@@ -142,7 +142,7 @@ export default function About() {
                 <Text  fontFamily="Roboto Condensed"
                     fontWeight="500"
                     fontSize={["18px","18px","19px","19px","23px"]}
-                    lineHeight={["40x","40x","38px","30px","43px"]}
+                    lineHeight={["40x","40x","30px","30px","43px"]}
                     textAlign="justify"
                     marginBottom="20px" width={["100%","100%","90%"]}>
                                            Join us in savoring the delightful and diverse flavors of Muthumani Pickles. Whether you're looking to add a spicy kick to your meals or a tangy twist to your snacks, our pickles are the perfect choice to elevate your dining experience. Welcome to a world of tradition and taste with Muthumani Pickles!
@@ -176,7 +176,7 @@ export default function About() {
                 <Text mt={["10%","10%","5%"]}   fontFamily="Roboto Condensed"
                     fontWeight="500"
                     fontSize={["18px","18px","19px","19px","23px"]}
-                    lineHeight={["40x","40x","38px","30px","43px"]}
+                    lineHeight={["40x","40x","30px","30px","43px"]}
                     textAlign="justify"
                     marginBottom="20px" width={["100%","100%","90%"]}>
                   Our main focus is customer satisfaction, and we always prioritize feedback to improve the taste and quality of our products. This commitment to quality has earned us a reputation for excellence. As a Micro enterprise, we ensure that every product we offer meets your expectations through the highest standards in our manufacturing processes.</Text>
@@ -185,7 +185,7 @@ export default function About() {
                 <Text   fontFamily="Roboto Condensed"
                     fontWeight="500"
                     fontSize={["18px","18px","19px","19px","23px"]}
-                    lineHeight={["40x","40x","38px","30px","43px"]}
+                    lineHeight={["40x","40x","30px","30px","43px"]}
                     textAlign="justify"
                     marginBottom="20px" width={["100%","100%","90%"]}>
                       Located in Mukkudal, Tamil Nadu, Muthumani Pickles is a family-run business that prides itself on delivering quality and taste in every jar. Our pickles are more than just condiments; they are a celebration of India's culinary heritage. Each pickle is a blend of seasonal vegetables, carefully selected and preserved to enhance their natural flavors.

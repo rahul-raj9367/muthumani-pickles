@@ -171,7 +171,7 @@ export default function Product() {
         </Grid>
       </Box>
       <Box mt={["100px"]}>
-      <Center><Heading as='h2' size={['xl','2xl','2xl','2xl']} fontFamily="Merienda">Kasthuri Manjal Powder</Heading></Center>
+      <Center><Heading as='h2' size={['xl','2xl','2xl','2xl']} textAlign="center" fontFamily="Merienda">Kasthuri Manjal Powder</Heading></Center>
       <Center data-aos="fade-up"
      data-aos-duration="3000" mt="50px" pl={["5%","5%","2%"]} pr={["5%","5%","2%"]}>
               <Card boxShadow='2xl' borderRadius="20px"  border="3px solid" borderColor="#f2f2f2"  >

@@ -252,7 +252,7 @@ export default function Home({setActiveButton }) {
 
         {/* What Our Clients Say */}
         <Box mb="50px" className='Caro'>
-        <Center><Heading pt={["60px"]}  pb={["50px"]} as='h2' size={['xl','2xl','2xl','2xl']} fontFamily="Merienda">What Our Clients Say</Heading></Center>
+        <Center><Heading pt={["60px"]}  pb={["50px"]} as='h2' size={['xl','2xl','2xl','2xl']} textAlign="center" fontFamily="Merienda">What Our Clients Say</Heading></Center>
               <Box data-aos="zoom-in-down"  mt="40px" overflow="hidden" data-aos-delay="300">
               <Swiper
                   effect={'cards'}

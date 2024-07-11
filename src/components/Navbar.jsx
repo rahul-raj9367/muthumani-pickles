@@ -20,7 +20,7 @@ export default function Navbar({ activeButton, handleButtonClick }) {
       case '/about':
         handleButtonClick(2);
         break;
-      case '/product':
+      case '/products':
         handleButtonClick(3);
         break;
       case '/gallery':

@@ -158,13 +158,13 @@ export default function Home({setActiveButton }) {
         <Box mb="50px" className='Caro'>
         <Center><Heading pt={["","","20px","50px"]}  pb={["25px","50px"]} as='h2' size={['xl','2xl','2xl','2xl']} fontFamily="Merienda">Our Products</Heading></Center>
         <Grid templateColumns={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(2, 1fr)','repeat(2, 1fr)']} gap={6} overflow="hidden">
-        <Link to="/product" onClick={() => setActiveButton(3)}><GridItem w='100%' h='100%' data-aos="fade-up"
+        <Link to="/products" onClick={() => setActiveButton(3)}><GridItem w='100%' h='100%' data-aos="fade-up"
      data-aos-duration="3000">
             <Center>
               <Image borderRadius="full"  loading="lazy"  overflow="hidden" boxSize={["100%","80%"]} src='images/p11.png' />
             </Center>
           </GridItem></Link>
-          <Link to="/product" onClick={() => setActiveButton(3)}><GridItem w='100%' h='100%' data-aos="fade-up"
+          <Link to="/products" onClick={() => setActiveButton(3)}><GridItem w='100%' h='100%' data-aos="fade-up"
      data-aos-duration="3000">
             <Center>
             <Image borderRadius="full"  loading="lazy"  overflow="hidden" boxSize={["100%","80%"]} src='images/p22.png' />

@@ -91,7 +91,7 @@ export default function Home({setActiveButton }) {
             <Box >
       {/* Carousel */}
         <Box width={["100%"]}  className='Caro'>
-        <a href="https://wa.me/9367747439"  target="_blank"><Carousel interval={3000} controls={false} indicators={false} pause={false} >
+        <a href="https://wa.me/9367747439"  target="_blank"><Carousel interval={6000} controls={false} indicators={false} pause={true} >
           {carouselItems.map((item, index) => (
                 <Carousel.Item key={index}>
                   <Image

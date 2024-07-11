@@ -91,7 +91,7 @@ export default function Home({setActiveButton }) {
             <Box >
       {/* Carousel */}
         <Box width={["100%"]}  className='Caro'>
-        <Carousel interval={3000} controls={false} indicators={false} pause={false} >
+        <a href="https://wa.me/9367747439"  target="_blank"><Carousel interval={3000} controls={false} indicators={false} pause={false} >
           {carouselItems.map((item, index) => (
                 <Carousel.Item key={index}>
                   <Image
@@ -104,7 +104,7 @@ export default function Home({setActiveButton }) {
                   />
                 </Carousel.Item>
               ))}
-        </Carousel>
+        </Carousel></a>
         </Box>
         
         {/* Welcome To Muthumani Pickles */}

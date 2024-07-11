@@ -27,16 +27,14 @@ export default function About() {
             <Center><Heading as='h2' size={['xl','2xl','2xl','2xl']} fontFamily="Merienda">About Us</Heading></Center>
 
             <Grid display={["none","none","none","flex"]} templateColumns={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(1, 1fr)','repeat(2, 1fr)']} gap={2} overflow="hidden" mt={["60px"]}>
-              <GridItem  w='100%' h='100%' data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine" data-aos-delay="500">
+              <GridItem  w='100%' h='100%' data-aos="fade-up"
+     data-aos-duration="3000">
               <Center>
                 <Image src="images/PackiaSelvan.png"  loading="lazy" mt={["","","","0px",""]}   alt="Traditional Pickles" borderRadius="20px" width={["90%","90%","50%","60%","60%","50%"]} height={["100%","100%","100%","100%"]} ml={["0px","0px","0px"]}/>
                 </Center>
               </GridItem>
-              <GridItem w='100%' h='100%' data-aos="fade-left"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine" data-aos-delay="500">
+              <GridItem w='100%' h='100%' data-aos="fade-up"
+     data-aos-duration="3000">
                 <Box  w={['100%','100%']} pl={["20px","20px","40px","20px"]} pr={["20px","20px","40px","20px"]} >
                 <>
                 <Text mt={["0%","0%","0%","0%","0%","5%"]}   fontFamily="Roboto Condensed"
@@ -72,9 +70,8 @@ export default function About() {
 
             {/* Desktop */}
             <Grid display={["none","none","none","flex"]} templateColumns={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(2, 1fr)','repeat(2, 1fr)']} gap={2} overflow="hidden" mt={["50px"]}>
-              <GridItem  w='100%' h='100%' data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine" data-aos-delay="500" textAlign="end" >
+              <GridItem  w='100%' h='100%' data-aos="fade-up"
+     data-aos-duration="3000" textAlign="end" >
               <Box  w={['100%']} pl={["20px","20px","40px","20px"]}  pr={["20px","20px","40px","20px"]} >
                 <Center ml="15%">
                 <Text mt={["0%","0%","0%","0%","0%","5%"]}  fontFamily="Roboto Condensed"
@@ -101,9 +98,8 @@ export default function About() {
               </GridItem>
 
 
-              <GridItem  w='100%' h='100%' data-aos="fade-left"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine" data-aos-delay="500">
+              <GridItem  w='100%' h='100%' data-aos="fade-up"
+     data-aos-duration="3000">
               <Center>
                 <Image src="images/muthumani.png"  loading="lazy" mt={["","","","0px",""]}   alt="Traditional Pickles" borderRadius="20px" width={["90%","90%","50%","60%","60%","50%"]} height={["100%","100%","100%","50%"]} ml={["0px","0px","0px"]}/>
                 </Center>
@@ -116,17 +112,15 @@ export default function About() {
             {/* Mobile */}
             <Grid display={["flex","flex","flex","none"]} flexDir={["column"]} templateColumns={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(2, 1fr)','repeat(2, 1fr)']} gap={2} overflow="hidden" mt={["50px"]}>
               
-            <GridItem  w='100%' h='100%' data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine" data-aos-delay="500">
+            <GridItem  w='100%' h='100%'  data-aos="fade-up"
+     data-aos-duration="3000">
               <Center>
                 <Image src="images/PackiaSelvan.png"  loading="lazy" mt={["","","","0px",""]}   alt="Traditional Pickles" borderRadius="20px" width={["90%","90%","50%","70%","60%","50%"]} height={["100%","100%","100%","100%"]} ml={["0px","0px","0px"]}/>
                 </Center>
               </GridItem>
               
-              <GridItem w='100%' h='100%' data-aos="fade-left"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine" data-aos-delay="500">
+              <GridItem w='100%' h='100%'  data-aos="fade-up"
+     data-aos-duration="3000">
               <Box w={['100%']} pl={["20px","20px","40px","20px"]} pr={["20px","20px","40px","20px"]} >
                 <Center>
                 <Text mt={["10%","10%","5%"]}   fontFamily="Roboto Condensed"
@@ -160,17 +154,15 @@ export default function About() {
             </Grid>
             <Grid display={["flex","flex","flex","none"]} flexDir={["column"]} templateColumns={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(2, 1fr)','repeat(2, 1fr)']} gap={2} overflow="hidden" mt={["50px"]}>
               
-            <GridItem  w='100%' h='100%' data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine" data-aos-delay="500">
+            <GridItem  w='100%' h='100%'  data-aos="fade-up"
+     data-aos-duration="3000">
               <Center>
                 <Image src="images/muthumani.png"  loading="lazy" mt={["","","","0px",""]}   alt="Traditional Pickles" borderRadius="20px" width={["90%","90%","50%","70%","60%","50%"]} height={["100%","100%","100%","100%"]} ml={["0px","0px","0px"]}/>
                 </Center>
               </GridItem>
               
-              <GridItem w='100%' h='100%' data-aos="fade-left"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine" data-aos-delay="500">
+              <GridItem w='100%' h='100%'  data-aos="fade-up"
+     data-aos-duration="3000">
               <Box w={['100%']} pl={["20px","20px","40px","20px"]} pr={["20px","20px","40px","20px"]} >
                 <Center>
                 <Text mt={["10%","10%","5%"]}   fontFamily="Roboto Condensed"
@@ -212,11 +204,10 @@ export default function About() {
         <Grid templateColumns={['repeat(1, 1fr)','repeat(1, 1fr)','repeat(1, 1fr)','repeat(2, 1fr)']} gap={2} overflow="hidden" mt={["50px"]}>
           <GridItem  w='100%' h='100%'>
             <Box>
-              <Center><Heading as='h2' size={['xl','2xl','2xl','2xl']} fontFamily="Merienda"  data-aos="fade-up"
+              <Center><Heading as='h2' size={['xl','2xl','2xl','2xl']} fontFamily="Merienda"  
      >OUR VISION</Heading></Center>
               <Center><Image 
-              data-aos="fade-up"
-     data-aos-duration="3000"
+             
                     mt={["20px"]}
                     loading="lazy" 
                     overflow="hidden" 
@@ -226,9 +217,7 @@ export default function About() {
                     src={logo2} 
                 /></Center>
                 <Center>
-                <Text data-aos="fade-right"
-     data-aos-offset="200"
-     data-aos-easing="ease-in-sine" data-aos-delay="500"  mt={["10px"]} fontFamily="Roboto Condensed" fontSize={["17px","17px","20px","18px","19px"]} width={["80%","80%","50%","80%","70%"]}  textAlign="center">
+                <Text  mt={["10px"]} fontFamily="Roboto Condensed" fontSize={["17px","17px","20px","18px","19px"]} width={["80%","80%","50%","80%","70%"]}  textAlign="center">
                 Our vision at Muthumani Pickles is to globally lead in high-quality, traditional Indian pickles, preserving and promoting the rich heritage of Indian cuisine. Through innovation and uncompromising quality, we aim to be a trusted name, delivering authentic flavors cherished for generations
                 </Text>
                 </Center>
@@ -237,11 +226,10 @@ export default function About() {
           </GridItem>
           <GridItem  w='100%' h='100%'>
             <Box mt={["50px","50px","50px","0px"]}>
-              <Center><Heading as='h2' size={['xl','2xl','2xl','2xl']} fontFamily="Merienda"  data-aos="fade-up">OUR MISSION</Heading></Center>
+              <Center><Heading as='h2' size={['xl','2xl','2xl','2xl']} fontFamily="Merienda"  >OUR MISSION</Heading></Center>
                
               <Center> <Image 
-               data-aos="fade-up"
-     data-aos-duration="3000"
+               
                 mt={["20px","20px","30px","20px"]}
                     loading="lazy" 
                     overflow="hidden" 
@@ -251,9 +239,7 @@ export default function About() {
                     src={logo} 
                 /></Center>
                 <Center>
-                <Text data-aos="fade-left"
-     data-aos-offset="200"
-     data-aos-easing="ease-in-sine" data-aos-delay="500" fontFamily="Roboto Condensed"  mt={["20px","20px","20px","10px"]} fontSize={["17px","17px","20px","18px","19px"]}  width={["80%","80%","50%","80%","70%"]} textAlign="center">
+                <Text  fontFamily="Roboto Condensed"  mt={["20px","20px","20px","10px"]} fontSize={["17px","17px","20px","18px","19px"]}  width={["80%","80%","50%","80%","70%"]} textAlign="center">
                 Muthumani Pickles' mission is to craft exceptional pickles embodying traditional Indian flavors. We use the finest natural ingredients and sustainable practices, valuing customer feedback to continually enhance our products. Supporting local communities and exploring new flavors, we aim to enrich meals with the unique tastes of our pickles.
                 </Text>
                 </Center>

@@ -116,7 +116,7 @@ export default function Navbar({ activeButton, handleButtonClick }) {
           </Link>
         </ListItem>
         <ListItem  mr={["30px", "30px", "0px", "10px"]} ml={["0px","10px"]} mt="3px">
-          <Link to="/product">
+          <Link to="/products">
             <Button
             fontFamily="Montserrat"
              size={['sm', 'sm', 'sm', 'md', 'md']}
@@ -127,7 +127,7 @@ export default function Navbar({ activeButton, handleButtonClick }) {
               color={activeButton === 3 ? '#ffffff' : 'black'}
               _hover={{ bg: activeButton === 3 ? '#B31312' : 'black', color: activeButton === 3 ? '#ffffff' : '#ffff' }}
             >
-              PRODUCT
+              PRODUCTS
             </Button>
           </Link>
         </ListItem>
@@ -270,11 +270,11 @@ export default function Navbar({ activeButton, handleButtonClick }) {
                               <Center>
                               <ListItem  mb="30px" >
                               <NavLink>
-                              <Link to="/product">
+                              <Link to="/products">
                                   <Text onClick={() => {
         ChangeDisplayy('none');
         handleButtonClick(3);
-      }} fontFamily="Montserrat" fontSize='xl' as='b' _hover={{ color:'#1da1f2' }} color="#B31312">Product</Text>
+      }} fontFamily="Montserrat" fontSize='xl' as='b' _hover={{ color:'#1da1f2' }} color="#B31312">Products</Text>
                               </Link>
                               </NavLink>
                                   </ListItem>

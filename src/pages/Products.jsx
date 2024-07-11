@@ -7,7 +7,7 @@ import { Helmet } from 'react-helmet';
 
 
 
-export default function Product() {
+export default function Products() {
 
    //AOS
    useEffect(()=>{

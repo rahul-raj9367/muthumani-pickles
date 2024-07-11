@@ -5,11 +5,11 @@ import Home from './pages/Home';
 import ContactUs from './pages/ContactUs';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Product from './pages/Product';
 import About from './pages/About';
 import Gallery from './pages/Gallery';
 import ScrollToTop from './components/ScrollToTop';
 import PageError from './pages/PageError';
+import Products from './pages/Products';
 
 function App() {
   const [activeButton, setActiveButton] = useState(() => {
@@ -30,7 +30,7 @@ function App() {
         <Routes>
           <Route index element={<Home setActiveButton={handleButtonClick} />} />
           <Route path="/contact" element={<ContactUs />} />
-          <Route path="/product" element={<Product />} />
+          <Route path="/products" element={<Products />} />
           <Route path="/about" element={<About />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="*" element={<PageError setActiveButton={handleButtonClick}/>} />

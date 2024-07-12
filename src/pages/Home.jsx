@@ -142,7 +142,7 @@ export default function Home({setActiveButton }) {
                     lineHeight={["40x","40x","38px","30px","43px"]}
                     textAlign="justify"
                     marginBottom="20px" width={["100%","100%","90%"]}>
-                    Using only the finest natural ingredients and time-honored techniques, they offer a variety of pickles crafted to enhance natural flavors. Customer satisfaction is paramount, with continual improvement based on feedback, ensuring each product meets the highest standards. Muthumani Pickles invites you to explore their diverse flavors, adding a spicy or tangy twist to your meals and snacks.
+                    Using only the finest natural ingredients and time-honored techniques, We offer a variety of pickles crafted to enhance natural flavors. Customer satisfaction is paramount, with continual improvement based on feedback, ensuring each product meets the highest standards. Muthumani Pickles invites you to explore their diverse flavors, adding a spicy or tangy twist to your meals and snacks.
                   </Text>
                 </Center>
                   

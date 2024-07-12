@@ -272,7 +272,7 @@ export default function Home({setActiveButton }) {
                           " Absolutely love the flavors! Authentic and delicious. Highly recommend "
                       </Heading>
                     </Center>
-                    <Text fontFamily="Merienda" textAlign="right"  pt={["10px","10px","20px","50px"]} pb={["0px","0px","0px","0px","0px","40px"]}pr="10%" >-Vel Murugran</Text>
+                    <Text fontFamily="Merienda" textAlign="right"  pt={["10px","10px","20px","50px"]} pb={["0px","0px","0px","0px","0px","40px"]}pr="10%" >-Vel Murugan</Text>
 
                   </SwiperSlide>
 
